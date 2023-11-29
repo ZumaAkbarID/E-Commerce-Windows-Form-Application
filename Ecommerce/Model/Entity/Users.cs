@@ -12,6 +12,7 @@ namespace Ecommerce.Model.Entity
         public string NameUser { get; set; }
         public string PhoneUser { get; set; }
         public string AddressUser { get; set; }
+        public string RoleUser { get; set; }
         public string PasswordUser { get; set; }
     }
 }

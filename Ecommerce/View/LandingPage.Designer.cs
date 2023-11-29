@@ -109,6 +109,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -933,6 +934,18 @@
             this.pictureBox4.TabIndex = 104;
             this.pictureBox4.TabStop = false;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Location = new System.Drawing.Point(1002, 22);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 9, 4, 9);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(105, 39);
+            this.btnLogout.TabIndex = 182;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -940,6 +953,7 @@
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 150);
             this.ClientSize = new System.Drawing.Size(1242, 886);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.button30);
             this.Controls.Add(this.button27);
@@ -1128,5 +1142,6 @@
         private System.Windows.Forms.Label lbl_profil;
         private System.Windows.Forms.Button btn_register;
         private System.Windows.Forms.Button btn_login;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

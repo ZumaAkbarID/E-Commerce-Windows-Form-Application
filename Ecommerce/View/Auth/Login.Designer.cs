@@ -106,6 +106,7 @@
             // lblRegister
             // 
             this.lblRegister.AutoSize = true;
+            this.lblRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblRegister.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegister.Location = new System.Drawing.Point(230, 455);
             this.lblRegister.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);

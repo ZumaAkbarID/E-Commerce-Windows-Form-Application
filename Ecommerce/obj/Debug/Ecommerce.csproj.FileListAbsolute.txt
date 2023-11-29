@@ -2,7 +2,6 @@ D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe.config
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.pdb
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.dll
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.dll
@@ -18,8 +17,6 @@ D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Runtime.Compil
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\ZstdSharp.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\MySql.Data.dll
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.pdb
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll.config
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.xml
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.pdb
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.xml
@@ -48,9 +45,6 @@ D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.ValueTuple.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Text.Encodings.Web.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.dll
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.xml
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login.resources
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_register.resources
-D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Landing.resources
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe.config
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.pdb
@@ -172,3 +166,15 @@ E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerc
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Categories.EntryCategory.resources
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.ListProducts.resources
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.EntryProduct.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\MySqlConnector.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\MySqlConnector.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Categories.EntryCategory.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Categories.ListCategories.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.EntryProduct.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.ListProducts.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Auth.Login.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Auth.Register.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.DetailProduct.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.LandingPage.resources

@@ -113,6 +113,7 @@ namespace Ecommerce.Model.Repository
                         user.NameUser = reader["name"].ToString();
                         user.PhoneUser = reader["phone"].ToString();
                         user.AddressUser = reader["address"].ToString();
+                        user.RoleUser = reader["role"].ToString();
                         user.PasswordUser = reader["password"].ToString();
                     }
                 }
@@ -138,6 +139,7 @@ namespace Ecommerce.Model.Repository
                             user.IdUser = Convert.ToInt32(dtr["id"]);
                             user.NameUser = dtr["name"].ToString();
                             user.PhoneUser = dtr["phone"].ToString();
+                            user.RoleUser = dtr["role"].ToString();
                             user.AddressUser = dtr["address"].ToString();
 
                             list.Add(user);
