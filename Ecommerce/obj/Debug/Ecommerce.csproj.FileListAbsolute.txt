@@ -1,0 +1,174 @@
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe.config
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Ecommerce.pdb
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Buffers.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Memory.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\ZstdSharp.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\MySql.Data.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.pdb
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll.config
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.pdb
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Buffers.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Memory.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\MySql.Data.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.AssemblyReference.cache
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.SuggestedBindingRedirects.cache
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Properties.Resources.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.GenerateResource.cache
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.exe
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Text.Json.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.ValueTuple.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\System.Text.Encodings.Web.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.dll
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.xml
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_register.resources
+D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Landing.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe.config
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Ecommerce.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Buffers.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Memory.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\ZstdSharp.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\MySql.Data.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.ValueTuple.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Text.Encodings.Web.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll.config
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Buffers.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Memory.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\bin\Debug\MySql.Data.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.AssemblyReference.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.SuggestedBindingRedirects.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_register.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Landing.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Properties.Resources.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.GenerateResource.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.exe
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.AddProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login_admin.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe.config
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Ecommerce.exe
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Ecommerce.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Buffers.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Memory.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\ZstdSharp.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\MySql.Data.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.ValueTuple.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Text.Encodings.Web.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\EcommerceDB.dll.config
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Google.Protobuf.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\K4os.Hash.xxHash.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Newtonsoft.Json.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Buffers.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.IO.Pipelines.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Memory.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Numerics.Vectors.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\MySql.Data.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.AssemblyReference.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.AddProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.DeleteProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.UpdateProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_login_admin.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.form_register.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.Properties.Resources.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.GenerateResource.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.exe
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.DetailProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\MySqlConnector.dll
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\bin\Debug\MySqlConnector.xml
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Auth.Register.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Auth.Login.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.LandingPage.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Categories.ListCategories.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.DetailProduct.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Categories.EntryCategory.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.ListProducts.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\Ecommerce.part3\Ecommerce.p3\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Admin.Products.EntryProduct.resources
