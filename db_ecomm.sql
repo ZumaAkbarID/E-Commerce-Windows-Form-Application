@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2023 at 04:31 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Waktu pembuatan: 29 Nov 2023 pada 18.11
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `categories`
+-- Struktur dari tabel `categories`
 --
 
 CREATE TABLE `categories` (
@@ -36,7 +36,7 @@ CREATE TABLE `categories` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Struktur dari tabel `products`
 --
 
 CREATE TABLE `products` (
@@ -52,7 +52,7 @@ CREATE TABLE `products` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `transactions`
+-- Struktur dari tabel `transactions`
 --
 
 CREATE TABLE `transactions` (
@@ -65,7 +65,7 @@ CREATE TABLE `transactions` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -73,31 +73,30 @@ CREATE TABLE `users` (
   `name` varchar(255) NOT NULL,
   `phone` varchar(255) NOT NULL,
   `address` text NOT NULL,
+  `role` enum('Admin','Buyer') NOT NULL DEFAULT 'Buyer',
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `phone`, `address`, `password`) VALUES
-(1, 'dwsw', '345', 'feaf', '4297F44B13955235245B2497399D7A93'),
-(2, 'saya', '123', 'sini', '96E79218965EB72C92A549DD5A330112'),
-(3, 'zuma', '1111', 'amikom', '93279E3308BDBBEED946FC965017F67A');
+INSERT INTO `users` (`id`, `name`, `phone`, `address`, `role`, `password`) VALUES
+(1, 'Zuma Ganteng', '1234', 'Jepara', 'Admin', 'E10ADC3949BA59ABBE56E057F20F883E');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `categories`
+-- Indeks untuk tabel `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`),
   ADD KEY `created_by` (`created_by`);
 
 --
--- Indexes for table `products`
+-- Indeks untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`),
@@ -105,7 +104,7 @@ ALTER TABLE `products`
   ADD KEY `created_by` (`created_by`);
 
 --
--- Indexes for table `transactions`
+-- Indeks untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   ADD PRIMARY KEY (`id`),
@@ -113,58 +112,58 @@ ALTER TABLE `transactions`
   ADD KEY `id_product` (`id_product`);
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `categories`
+-- AUTO_INCREMENT untuk tabel `categories`
 --
 ALTER TABLE `categories`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `transactions`
+-- AUTO_INCREMENT untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `categories`
+-- Ketidakleluasaan untuk tabel `categories`
 --
 ALTER TABLE `categories`
   ADD CONSTRAINT `categories_ibfk_1` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `products`
+-- Ketidakleluasaan untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD CONSTRAINT `products_ibfk_1` FOREIGN KEY (`id_category`) REFERENCES `categories` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `products_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `transactions`
+-- Ketidakleluasaan untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   ADD CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`) ON DELETE CASCADE,

@@ -115,58 +115,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddProduct.Designer.cs">
-      <DependentUpon>AddProduct.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controller\UsersController.cs" />
-    <Compile Include="DeleteProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DeleteProduct.Designer.cs">
-      <DependentUpon>DeleteProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DetailProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DetailProduct.Designer.cs">
-      <DependentUpon>DetailProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditProduct.Designer.cs">
-      <DependentUpon>EditProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormRegister.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>FormRegister.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Helper\GrabUser.cs" />
     <Compile Include="Helper\Password.cs" />
-    <Compile Include="Landing.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Landing.Designer.cs">
-      <DependentUpon>Landing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormLoginAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLoginAdmin.Designer.cs">
-      <DependentUpon>FormLoginAdmin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\Context\DbContext.cs" />
+    <Compile Include="Model\Entity\Categories.cs" />
     <Compile Include="Model\Entity\Users.cs" />
+    <Compile Include="Model\Repository\CategoriesRepository.cs" />
     <Compile Include="Model\Repository\UsersRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,27 +173,6 @@
     <Compile Include="View\LandingPage.Designer.cs">
       <DependentUpon>LandingPage.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddProduct.resx">
-      <DependentUpon>AddProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DeleteProduct.resx">
-      <DependentUpon>DeleteProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DetailProduct.resx">
-      <DependentUpon>DetailProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditProduct.resx">
-      <DependentUpon>EditProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLoginAdmin.resx">
-      <DependentUpon>FormLoginAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegister.resx">
-      <DependentUpon>FormRegister.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -289,22 +223,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EcommerceDB\EcommerceDB.csproj">
-      <Project>{e3e18c3c-05be-43ec-bf18-c2b27b0e62e8}</Project>
-      <Name>EcommerceDB</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ilustrasi 6 orang.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wallpaper 6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="png\back-image.jpg" />
-    <Content Include="png\key-icon.png" />
-    <Content Include="png\logo.png" />
-    <Content Include="png\user-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

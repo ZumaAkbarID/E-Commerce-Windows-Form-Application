@@ -58,5 +58,18 @@ namespace Ecommerce.Controller
                 }
             }
         }
+
+        public int Logout()
+        {
+            int result = 0;
+
+            if (File.Exists(Path.Combine(Application.StartupPath, "Session.json")))
+            {
+                File.Delete(Path.Combine(Application.StartupPath, "Session.json"));
+                result = 1;
+            }
+
+            return result;
+        }
     }
 }
