@@ -18,7 +18,6 @@ namespace Ecommerce.View
 {
     public partial class LandingPage : Form
     {
-        private string SessionPath;
         private Users user;
         private GrabUser grabUser;
         public LandingPage()
