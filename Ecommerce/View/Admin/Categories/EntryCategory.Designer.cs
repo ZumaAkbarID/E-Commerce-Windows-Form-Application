@@ -60,6 +60,7 @@
             this.btnCancelEC.TabIndex = 8;
             this.btnCancelEC.Text = "Cancel";
             this.btnCancelEC.UseVisualStyleBackColor = true;
+            this.btnCancelEC.Click += new System.EventHandler(this.btnCancelEC_Click);
             // 
             // btnSaveEC
             // 
@@ -70,6 +71,7 @@
             this.btnSaveEC.TabIndex = 9;
             this.btnSaveEC.Text = "Save";
             this.btnSaveEC.UseVisualStyleBackColor = true;
+            this.btnSaveEC.Click += new System.EventHandler(this.btnSaveEC_Click);
             // 
             // EntryCategory
             // 
@@ -82,6 +84,7 @@
             this.Controls.Add(this.label1);
             this.Name = "EntryCategory";
             this.Text = "EntryCategory";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EntryCategory_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
