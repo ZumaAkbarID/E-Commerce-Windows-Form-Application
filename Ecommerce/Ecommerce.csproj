@@ -116,13 +116,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\CategoriesController.cs" />
+    <Compile Include="Controller\ProductsController.cs" />
     <Compile Include="Controller\UsersController.cs" />
+    <Compile Include="Helper\Currency.cs" />
     <Compile Include="Helper\GrabUser.cs" />
+    <Compile Include="Helper\ImageBB.cs" />
     <Compile Include="Helper\Password.cs" />
     <Compile Include="Model\Context\DbContext.cs" />
     <Compile Include="Model\Entity\Categories.cs" />
+    <Compile Include="Model\Entity\Products.cs" />
+    <Compile Include="Model\Entity\ResponseImageBB.cs" />
     <Compile Include="Model\Entity\Users.cs" />
     <Compile Include="Model\Repository\CategoriesRepository.cs" />
+    <Compile Include="Helper\Input.cs" />
+    <Compile Include="Model\Repository\ProductsRepository.cs" />
     <Compile Include="Model\Repository\UsersRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -237,6 +244,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wallpaper 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\huawei-mate-40-pro-plus-1x1.jpg" />
+    <Content Include="Resources\iPhone 13 pro 1x1.jpg" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\Samsung Galaxy S22 Ultra - Features, Specs &amp; Reviews _ AT&amp;T.jpeg" />
+    <Content Include="Resources\Vivo V29.jpeg" />
+    <Content Include="Resources\Xiaomi 13T 6_67%27  8 GB  256 GB - Preto.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

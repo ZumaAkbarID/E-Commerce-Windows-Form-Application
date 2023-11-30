@@ -10,15 +10,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ecommerce.View;
+using Ecommerce.Helper;
 
 namespace Ecommerce.View.Auth
 {
     public partial class Login : Form
     {
+        private Input handleInput;
         public Login()
         {
             InitializeComponent();
             this.CenterToScreen();
+
+            handleInput = new Input();
 
             pictureBox1.ImageLocation = "https://forumasisten.or.id/assets/img/asisten/22.11.4640.jpg";
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -39,13 +43,13 @@ namespace Ecommerce.View.Auth
             UsersController controller = new UsersController();
             result = controller.Login(txtPhone.Text, txtPassword.Text);
 
-            if (result > 0)
+            if (result == 2)
             {
                 LandingPage Landing = new LandingPage();
                 Landing.Show();
                 Visible = false;
             }
-            else if(result == 0) 
+            else if (result == 0)
             {
                 MessageBox.Show("Account not found.", "Failed!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             } else
@@ -57,10 +61,7 @@ namespace Ecommerce.View.Auth
 
         private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+            e.Handled = handleInput.preventNonNumeric(e);
         }
 
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
