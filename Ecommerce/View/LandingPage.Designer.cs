@@ -137,6 +137,8 @@
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.btnAdminListCategory = new System.Windows.Forms.Button();
+            this.btnAdminListProducts = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image5_1)).BeginInit();
@@ -794,7 +796,7 @@
             // 
             this.lbl_profil.AutoSize = true;
             this.lbl_profil.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_profil.Location = new System.Drawing.Point(952, 82);
+            this.lbl_profil.Location = new System.Drawing.Point(884, 82);
             this.lbl_profil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_profil.Name = "lbl_profil";
             this.lbl_profil.Size = new System.Drawing.Size(48, 28);
@@ -1238,13 +1240,35 @@
             this.pictureBox20.TabIndex = 184;
             this.pictureBox20.TabStop = false;
             // 
+            // btnAdminListCategory
+            // 
+            this.btnAdminListCategory.Location = new System.Drawing.Point(54, 37);
+            this.btnAdminListCategory.Name = "btnAdminListCategory";
+            this.btnAdminListCategory.Size = new System.Drawing.Size(112, 23);
+            this.btnAdminListCategory.TabIndex = 210;
+            this.btnAdminListCategory.Text = "Manage Categories";
+            this.btnAdminListCategory.UseVisualStyleBackColor = true;
+            this.btnAdminListCategory.Click += new System.EventHandler(this.btnAdminListCategory_Click);
+            // 
+            // btnAdminListProducts
+            // 
+            this.btnAdminListProducts.Location = new System.Drawing.Point(172, 37);
+            this.btnAdminListProducts.Name = "btnAdminListProducts";
+            this.btnAdminListProducts.Size = new System.Drawing.Size(112, 23);
+            this.btnAdminListProducts.TabIndex = 211;
+            this.btnAdminListProducts.Text = "Manage Products";
+            this.btnAdminListProducts.UseVisualStyleBackColor = true;
+            this.btnAdminListProducts.Click += new System.EventHandler(this.btnAdminListProducts_Click);
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 150);
-            this.ClientSize = new System.Drawing.Size(1259, 886);
+            this.ClientSize = new System.Drawing.Size(1276, 886);
+            this.Controls.Add(this.btnAdminListProducts);
+            this.Controls.Add(this.btnAdminListCategory);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
@@ -1493,5 +1517,7 @@
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Button btnAdminListCategory;
+        private System.Windows.Forms.Button btnAdminListProducts;
     }
 }

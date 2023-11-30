@@ -59,25 +59,5 @@ namespace Ecommerce.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ilustrasi_6_orang {
-            get {
-                object obj = ResourceManager.GetObject("ilustrasi 6 orang", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wallpaper_6 {
-            get {
-                object obj = ResourceManager.GetObject("wallpaper 6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

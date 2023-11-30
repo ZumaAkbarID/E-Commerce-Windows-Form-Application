@@ -13,6 +13,9 @@ using Ecommerce.Model.Entity;
 using Ecommerce.View.Auth;
 using Newtonsoft.Json;
 using Ecommerce.Helper;
+using Ecommerce.View.Admin;
+using Ecommerce.View.Admin.Categories;
+using Ecommerce.View.Admin.Products;
 
 namespace Ecommerce.View
 {
@@ -28,16 +31,28 @@ namespace Ecommerce.View
                
             if(grabUser.Data() != null)
             {
+                pictureBoxLogout.Show();
                 btn_login.Hide();
                 btn_register.Hide();
-                btnLogout.Show();
                 lbl_profil.Text = "Halo " + grabUser.Data().NameUser;
+                if(grabUser.Data().RoleUser == "Admin")
+                {
+                    btnAdminListCategory.Show();
+                    btnAdminListProducts.Show();
+                } else
+                {
+                    btnAdminListCategory.Hide();
+                    btnAdminListProducts.Hide();
+                }
             } else
             {
+                pictureBoxLogout.Hide();
                 btn_login.Show();
                 btn_register.Show();
-                btnLogout.Hide();
                 lbl_profil.Hide();
+
+                btnAdminListCategory.Hide();
+                btnAdminListProducts.Hide();
             }
         }
 
@@ -69,6 +84,20 @@ namespace Ecommerce.View
                 login.Show();
                 Visible = false;
             }
+        }
+
+        private void btnAdminListCategory_Click(object sender, EventArgs e)
+        {
+            ListCategories listCatForm = new ListCategories();
+            listCatForm.Show();
+            Visible = false;
+        }
+
+        private void btnAdminListProducts_Click(object sender, EventArgs e)
+        {
+            ListProducts listPrdForm = new ListProducts();
+            listPrdForm.Show();
+            Visible = false;
         }
     }
 }

@@ -13,12 +13,21 @@ namespace Ecommerce.Helper
     public class GrabUser
     {
         private Users user;
+        private string SessionPath;
+
+        public GrabUser()
+        {
+            SessionPath = Path.Combine(Application.StartupPath, "Session.json");
+        }
+
+        public bool CheckSession()
+        {
+            return (File.Exists(SessionPath)) ? true : false;
+        }
+
         public Users Data()
         {
-
-            string SessionPath = Path.Combine(Application.StartupPath, "Session.json");
-
-            if (File.Exists(SessionPath))
+            if (CheckSession())
             {
                 string data = File.ReadAllText(SessionPath);
                 if (!String.IsNullOrEmpty(data))
@@ -32,6 +41,31 @@ namespace Ecommerce.Helper
             } else
             {
                 return user;
+            }
+        }
+
+        public bool WriteSession(Users user)
+        {
+            if(CheckSession())
+            {
+                DeleteSession();
+            }
+
+            string json = JsonConvert.SerializeObject(user);
+            File.WriteAllText(SessionPath, json);
+
+            return (CheckSession()) ? true : false;
+        }
+
+        public bool DeleteSession()
+        {
+            if (CheckSession())
+            {
+                File.Delete(SessionPath);
+                return true;
+            } else
+            {
+                return false;
             }
         }
     }

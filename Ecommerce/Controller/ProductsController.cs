@@ -1,31 +1,31 @@
-﻿using System;
+﻿using Ecommerce.Model.Context;
+using Ecommerce.Model.Entity;
+using Ecommerce.Model.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Ecommerce.Model.Entity;
-using Ecommerce.Helper;
-using Ecommerce.Model.Repository;
-using Ecommerce.Model.Context;
-using System.Windows;
-
 namespace Ecommerce.Controller
 {
-    public class CategoriesController
+    public class ProductsController
     {
+        private ProductsRepository _productRepository;
         private CategoriesRepository _categoryRepository;
-        private Categories category;
 
-        public int Create(string CategoryName)
+        private Categories category;
+        private Products product;
+
+        public int Create(Products p)
         {
             int result = 0;
 
             // membuat objek context menggunakan blok using
             using (DbContext context = new DbContext())
             {
-                _categoryRepository = new CategoriesRepository(context);
-                result = _categoryRepository.Create(CategoryName);
+                _productRepository = new ProductsRepository(context);
+                result = _productRepository.Create(p);
             }
 
             return result;
@@ -35,17 +35,11 @@ namespace Ecommerce.Controller
         {
             int result = 0;
 
-            // membuat objek context menggunakan blok using
-            using (DbContext context = new DbContext())
-            {
-                _categoryRepository = new CategoriesRepository(context);
-                result = _categoryRepository.Update(cat);
-            }
 
             return result;
         }
 
-        public List<Categories> ReadAll()
+        public List<Categories> ReadAllCategory()
         {
             // membuat objek collection
             List<Categories> list = new List<Categories>();
@@ -64,14 +58,22 @@ namespace Ecommerce.Controller
         {
             int result = 0;
 
+            return result;
+        }
+
+        internal List<Products> ReadAll()
+        {
+            // membuat objek collection
+            List<Products> list = new List<Products>();
             // membuat objek context menggunakan blok using
             using (DbContext context = new DbContext())
             {
-                _categoryRepository = new CategoriesRepository(context);
-                result = _categoryRepository.Delete(Id);
+                // membuat objek dari class repository
+                _productRepository = new ProductsRepository(context);
+                // panggil method GetAll yang ada di dalam class repository
+                list = _productRepository.ReadAll();
             }
-
-            return result;
+            return list;
         }
     }
 }
