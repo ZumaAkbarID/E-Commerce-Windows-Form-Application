@@ -115,6 +115,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CategoriesController.cs" />
     <Compile Include="Controller\UsersController.cs" />
     <Compile Include="Helper\GrabUser.cs" />
     <Compile Include="Helper\Password.cs" />
@@ -167,6 +168,12 @@
     <Compile Include="View\DetailProduct.Designer.cs">
       <DependentUpon>DetailProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LandingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\DetailProduct.resx">
       <DependentUpon>DetailProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>

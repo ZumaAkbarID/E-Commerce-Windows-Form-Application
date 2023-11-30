@@ -10,12 +10,14 @@ using Ecommerce.Model.Repository;
 using Ecommerce.Model.Context;
 using Newtonsoft.Json;
 using System.IO;
+using Ecommerce.Helper;
 
 namespace Ecommerce.Controller
 {
     public class UsersController
     {
         private UsersRepository _userRepository;
+        private GrabUser grabUser;
 
         public int Register(Users user)
         {
@@ -46,16 +48,15 @@ namespace Ecommerce.Controller
                     return result;
                 }
 
-                string json = JsonConvert.SerializeObject(user);
-                File.WriteAllText(Path.Combine(Application.StartupPath, "Session.json"), json);
+                grabUser = new GrabUser();
 
-                if(String.IsNullOrEmpty(File.ReadAllText(Path.Combine(Application.StartupPath, "Session.json"))))
-                {
-                    return 0;
-                } else
+                if(grabUser.Data() != null)
                 {
                     return 2;
-                }
+                } else
+                {
+                    return 0;
+                }                
             }
         }
 

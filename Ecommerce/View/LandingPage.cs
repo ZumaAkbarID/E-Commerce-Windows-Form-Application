@@ -60,10 +60,10 @@ namespace Ecommerce.View
             Application.Exit();
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        private void pictureBoxLogout_Click(object sender, EventArgs e)
         {
             UsersController usersController = new UsersController();
-            if(usersController.Logout() > 0)
+            if (usersController.Logout() > 0)
             {
                 Login login = new Login();
                 login.Show();
