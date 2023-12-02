@@ -44,7 +44,7 @@
             this.lvwCategory.HideSelection = false;
             this.lvwCategory.Location = new System.Drawing.Point(41, 77);
             this.lvwCategory.Name = "lvwCategory";
-            this.lvwCategory.Size = new System.Drawing.Size(1004, 412);
+            this.lvwCategory.Size = new System.Drawing.Size(806, 412);
             this.lvwCategory.TabIndex = 0;
             this.lvwCategory.UseCompatibleStateImageBehavior = false;
             // 
@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 29);
+            this.label1.Location = new System.Drawing.Point(37, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 23);
             this.label1.TabIndex = 1;
@@ -61,16 +61,16 @@
             // txtSearchCategory
             // 
             this.txtSearchCategory.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchCategory.Location = new System.Drawing.Point(258, 26);
+            this.txtSearchCategory.Location = new System.Drawing.Point(217, 26);
             this.txtSearchCategory.Multiline = true;
             this.txtSearchCategory.Name = "txtSearchCategory";
-            this.txtSearchCategory.Size = new System.Drawing.Size(447, 35);
+            this.txtSearchCategory.Size = new System.Drawing.Size(488, 35);
             this.txtSearchCategory.TabIndex = 2;
             // 
             // btnSearchCategory
             // 
             this.btnSearchCategory.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearchCategory.Location = new System.Drawing.Point(726, 26);
+            this.btnSearchCategory.Location = new System.Drawing.Point(725, 26);
             this.btnSearchCategory.Name = "btnSearchCategory";
             this.btnSearchCategory.Size = new System.Drawing.Size(122, 35);
             this.btnSearchCategory.TabIndex = 3;
@@ -86,6 +86,7 @@
             this.btnAddCategory.TabIndex = 4;
             this.btnAddCategory.Text = "Add";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // btnUpdateCategory
             // 
@@ -96,6 +97,7 @@
             this.btnUpdateCategory.TabIndex = 5;
             this.btnUpdateCategory.Text = "Update";
             this.btnUpdateCategory.UseVisualStyleBackColor = true;
+            this.btnUpdateCategory.Click += new System.EventHandler(this.btnUpdateCategory_Click);
             // 
             // btnDeleteCategory
             // 
@@ -106,22 +108,24 @@
             this.btnDeleteCategory.TabIndex = 6;
             this.btnDeleteCategory.Text = "Delete";
             this.btnDeleteCategory.UseVisualStyleBackColor = true;
+            this.btnDeleteCategory.Click += new System.EventHandler(this.btnDeleteCategory_Click);
             // 
             // btnCancelCategory
             // 
             this.btnCancelCategory.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelCategory.Location = new System.Drawing.Point(923, 495);
+            this.btnCancelCategory.Location = new System.Drawing.Point(725, 495);
             this.btnCancelCategory.Name = "btnCancelCategory";
             this.btnCancelCategory.Size = new System.Drawing.Size(122, 35);
             this.btnCancelCategory.TabIndex = 7;
             this.btnCancelCategory.Text = "Cancel";
             this.btnCancelCategory.UseVisualStyleBackColor = true;
+            this.btnCancelCategory.Click += new System.EventHandler(this.btnCancelCategory_Click);
             // 
             // ListCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 561);
+            this.ClientSize = new System.Drawing.Size(859, 561);
             this.Controls.Add(this.btnCancelCategory);
             this.Controls.Add(this.btnDeleteCategory);
             this.Controls.Add(this.btnUpdateCategory);
@@ -132,6 +136,7 @@
             this.Controls.Add(this.lvwCategory);
             this.Name = "ListCategories";
             this.Text = "List Categories";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ListCategories_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

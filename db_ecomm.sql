@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Nov 2023 pada 18.11
+-- Waktu pembuatan: 30 Nov 2023 pada 23.22
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.0.28
 
@@ -33,6 +33,17 @@ CREATE TABLE `categories` (
   `category_name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data untuk tabel `categories`
+--
+
+INSERT INTO `categories` (`id`, `created_by`, `category_name`) VALUES
+(1, 1, 'Makanan'),
+(2, 1, 'Minuman'),
+(3, 1, 'Elektronik'),
+(13, 1, 'AWKOAKW'),
+(14, 1, 'ASAS');
+
 -- --------------------------------------------------------
 
 --
@@ -46,8 +57,19 @@ CREATE TABLE `products` (
   `product_name` varchar(255) NOT NULL,
   `description` text NOT NULL,
   `stock` int(11) NOT NULL,
-  `price` double NOT NULL
+  `price` double NOT NULL,
+  `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `products`
+--
+
+INSERT INTO `products` (`id`, `id_category`, `created_by`, `product_name`, `description`, `stock`, `price`, `image`) VALUES
+(5, 3, 1, 'Ih bisa', 'halo gan', 12, 10000, 'https://i.ibb.co/mCFKQH6/image.jpg'),
+(6, 2, 1, 'asdasd', 'fgdfgdf df dfg dfg', 22, 324234, 'https://i.ibb.co/ckhG0wN/image.jpg'),
+(7, 2, 1, 'HP BAGUS', 'ini hp sangat bagus lo, chaonima le', 1, 9999999, 'https://i.ibb.co/FKgbhFS/image.jpg'),
+(8, 3, 1, 'Haiya', 'Cuma ngetest doang lo, chaonima le', 12, 10900, 'https://i.ibb.co/wQrk5qL/image.jpg');
 
 -- --------------------------------------------------------
 
@@ -82,7 +104,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `phone`, `address`, `role`, `password`) VALUES
-(1, 'Zuma Ganteng', '1234', 'Jepara', 'Admin', 'E10ADC3949BA59ABBE56E057F20F883E');
+(1, 'Zuma Ganteng', '1234', 'Jepara', 'Admin', 'E10ADC3949BA59ABBE56E057F20F883E'),
+(2, 'asdasd', '1221', 'asdasdasd', 'Buyer', 'E10ADC3949BA59ABBE56E057F20F883E');
 
 --
 -- Indexes for dumped tables
@@ -125,13 +148,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT untuk tabel `transactions`
@@ -143,7 +166,7 @@ ALTER TABLE `transactions`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

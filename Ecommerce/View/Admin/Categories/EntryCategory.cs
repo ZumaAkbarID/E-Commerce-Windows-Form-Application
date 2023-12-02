@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using Ecommerce.Model.Entity;
 using Ecommerce.Controller;
+using Ecommerce.Helper;
 
 namespace Ecommerce.View.Admin.Categories
 {
@@ -26,6 +27,7 @@ namespace Ecommerce.View.Admin.Categories
         private bool isNewData;
         // deklarasi field untuk meyimpan objek mahasiswa
         private Model.Entity.Categories cat;
+        private GrabUser grabUser;
 
         public EntryCategory()
         {
@@ -57,7 +59,9 @@ namespace Ecommerce.View.Admin.Categories
         private void btnSaveEC_Click(object sender, EventArgs e)
         {
             if (isNewData) cat = new Model.Entity.Categories();
-         
+            grabUser = new GrabUser();
+
+            cat.CreatedByName = grabUser.Data().NameUser;
             cat.Name = txtCategoryName.Text;
 
             int result = 0;
@@ -66,33 +70,43 @@ namespace Ecommerce.View.Admin.Categories
             {
                 // panggil operasi CRUD
                 result = controller.Create(txtCategoryName.Text);
-                if (result > 0) // tambah data berhasil
+                if (result == 1) // tambah data berhasil
                 {
                     OnCreate(cat); // panggil event OnCreate
                                    // reset form input, utk persiapan input data berikutnya
                     txtCategoryName.Text = "";
+                } else if (result == 2)
+                {
+                    MessageBox.Show("Categories has been reach the limit 5", "Failed!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    this.Hide();
+                } else
+                {
+                    MessageBox.Show("Failed to create data", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
             else // edit data, panggil method Update
             {
                 // panggil operasi CRUD
-                /* result = controller.Update(cat);
+                result = controller.Update(cat);
                 if (result > 0)
                 {
-                    OnUpdate(mhs);
-                    this.Close();
-                }*/
+                    OnUpdate(cat);
+                } else
+                {
+                    MessageBox.Show("Failed to update data", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                this.Hide();
             }
         }
 
         private void btnCancelEC_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void EntryCategory_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
     }
 }

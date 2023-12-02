@@ -15,6 +15,7 @@ namespace Ecommerce.Model.Repository
     public class UsersRepository
     {
         private MySqlConnection _conn;
+        private GrabUser grabUser;
 
         public UsersRepository(DbContext context)
         {
@@ -99,7 +100,7 @@ namespace Ecommerce.Model.Repository
         {
             Users user = new Users();
 
-            string sql = @"select * from users where phone = @phone and password = @password";
+            string sql = @"select * from users where phone = @phone and password = @password limit 1";
             using (MySqlCommand cmd = new MySqlCommand(sql, _conn))
             {
                 cmd.Parameters.AddWithValue("@phone", phone);
@@ -115,6 +116,9 @@ namespace Ecommerce.Model.Repository
                         user.AddressUser = reader["address"].ToString();
                         user.RoleUser = reader["role"].ToString();
                         user.PasswordUser = reader["password"].ToString();
+
+                        grabUser = new GrabUser();
+                        grabUser.WriteSession(user);
                     }
                 }
             }

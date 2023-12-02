@@ -41,36 +41,30 @@ namespace Ecommerce.Controller
             // membuat objek context menggunakan blok using
             using (DbContext context = new DbContext())
             {
+                grabUser = new GrabUser();
                 _userRepository = new UsersRepository(context);
                 user = _userRepository.LoginAttempt(phone, password);
-                if(user == null)
+
+                if(user.RoleUser == null)
                 {
                     return result;
                 }
 
-                grabUser = new GrabUser();
-
-                if(grabUser.Data() != null)
+                if(grabUser.CheckSession())
                 {
                     return 2;
                 } else
                 {
-                    return 0;
+                    return 1;
                 }                
             }
         }
 
         public int Logout()
         {
-            int result = 0;
+            grabUser = new GrabUser();
 
-            if (File.Exists(Path.Combine(Application.StartupPath, "Session.json")))
-            {
-                File.Delete(Path.Combine(Application.StartupPath, "Session.json"));
-                result = 1;
-            }
-
-            return result;
+            return (grabUser.DeleteSession()) ? 1 : 0;
         }
     }
 }
