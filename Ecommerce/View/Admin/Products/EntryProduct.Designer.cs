@@ -140,24 +140,26 @@
             // 
             // btnSaveProduct
             // 
+            this.btnSaveProduct.BackColor = System.Drawing.Color.Cornsilk;
             this.btnSaveProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveProduct.Location = new System.Drawing.Point(485, 677);
+            this.btnSaveProduct.Location = new System.Drawing.Point(454, 677);
             this.btnSaveProduct.Name = "btnSaveProduct";
             this.btnSaveProduct.Size = new System.Drawing.Size(122, 35);
             this.btnSaveProduct.TabIndex = 11;
             this.btnSaveProduct.Text = "Save";
-            this.btnSaveProduct.UseVisualStyleBackColor = true;
+            this.btnSaveProduct.UseVisualStyleBackColor = false;
             this.btnSaveProduct.Click += new System.EventHandler(this.btnSaveProduct_Click);
             // 
             // btnCancelProduct
             // 
+            this.btnCancelProduct.BackColor = System.Drawing.Color.Ivory;
             this.btnCancelProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelProduct.Location = new System.Drawing.Point(613, 677);
+            this.btnCancelProduct.Location = new System.Drawing.Point(582, 677);
             this.btnCancelProduct.Name = "btnCancelProduct";
             this.btnCancelProduct.Size = new System.Drawing.Size(122, 35);
             this.btnCancelProduct.TabIndex = 10;
             this.btnCancelProduct.Text = "Cancel";
-            this.btnCancelProduct.UseVisualStyleBackColor = true;
+            this.btnCancelProduct.UseVisualStyleBackColor = false;
             this.btnCancelProduct.Click += new System.EventHandler(this.btnCancelProduct_Click);
             // 
             // label6
@@ -172,9 +174,10 @@
             // 
             // btnSelectPicture
             // 
+            this.btnSelectPicture.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSelectPicture.Location = new System.Drawing.Point(176, 637);
             this.btnSelectPicture.Name = "btnSelectPicture";
-            this.btnSelectPicture.Size = new System.Drawing.Size(86, 23);
+            this.btnSelectPicture.Size = new System.Drawing.Size(95, 23);
             this.btnSelectPicture.TabIndex = 14;
             this.btnSelectPicture.Text = "Select Picture";
             this.btnSelectPicture.UseVisualStyleBackColor = true;
@@ -192,7 +195,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 724);
+            this.ClientSize = new System.Drawing.Size(723, 724);
             this.Controls.Add(this.cmbCategories);
             this.Controls.Add(this.btnSelectPicture);
             this.Controls.Add(this.label6);

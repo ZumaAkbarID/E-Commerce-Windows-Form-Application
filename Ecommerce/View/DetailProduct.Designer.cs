@@ -42,6 +42,7 @@
             // 
             // txtDescProduct
             // 
+            this.txtDescProduct.BackColor = System.Drawing.SystemColors.Control;
             this.txtDescProduct.Location = new System.Drawing.Point(365, 143);
             this.txtDescProduct.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescProduct.Multiline = true;
@@ -51,7 +52,7 @@
             // 
             // btnBuy
             // 
-            this.btnBuy.BackColor = System.Drawing.Color.MistyRose;
+            this.btnBuy.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy.Location = new System.Drawing.Point(362, 308);
             this.btnBuy.Margin = new System.Windows.Forms.Padding(2);
@@ -147,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 356);
+            this.ClientSize = new System.Drawing.Size(647, 366);
             this.Controls.Add(this.btnOutOfStock);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.txtStock);

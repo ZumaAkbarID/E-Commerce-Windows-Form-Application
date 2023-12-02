@@ -53,24 +53,26 @@
             // 
             // btnCancelEC
             // 
+            this.btnCancelEC.BackColor = System.Drawing.Color.Ivory;
             this.btnCancelEC.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelEC.Location = new System.Drawing.Point(368, 94);
             this.btnCancelEC.Name = "btnCancelEC";
             this.btnCancelEC.Size = new System.Drawing.Size(122, 35);
             this.btnCancelEC.TabIndex = 8;
             this.btnCancelEC.Text = "Cancel";
-            this.btnCancelEC.UseVisualStyleBackColor = true;
+            this.btnCancelEC.UseVisualStyleBackColor = false;
             this.btnCancelEC.Click += new System.EventHandler(this.btnCancelEC_Click);
             // 
             // btnSaveEC
             // 
+            this.btnSaveEC.BackColor = System.Drawing.Color.Cornsilk;
             this.btnSaveEC.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveEC.Location = new System.Drawing.Point(240, 94);
             this.btnSaveEC.Name = "btnSaveEC";
             this.btnSaveEC.Size = new System.Drawing.Size(122, 35);
             this.btnSaveEC.TabIndex = 9;
             this.btnSaveEC.Text = "Save";
-            this.btnSaveEC.UseVisualStyleBackColor = true;
+            this.btnSaveEC.UseVisualStyleBackColor = false;
             this.btnSaveEC.Click += new System.EventHandler(this.btnSaveEC_Click);
             // 
             // EntryCategory
