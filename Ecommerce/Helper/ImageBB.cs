@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Ecommerce.Model.Entity;
 using System.Windows.Input;
+using System.Net;
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace Ecommerce.Helper
 {
@@ -63,5 +66,26 @@ namespace Ecommerce.Helper
             }
         }
 
+        public static void DownloadAndSetImage(string imageUrl, PictureBox pictureBox)
+        {
+            try
+            {
+                using (WebClient webClient = new WebClient())
+                {
+                    byte[] imageBytes = webClient.DownloadData(imageUrl);
+
+                    // Mengkonversi byte array menjadi objek Image
+                    using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageBytes))
+                    {
+                        Image image = Image.FromStream(stream);
+                        pictureBox.Image = image;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
     }
 }
