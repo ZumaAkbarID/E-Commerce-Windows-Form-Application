@@ -141,31 +141,34 @@
             // 
             // btnOkInvoice
             // 
+            this.btnOkInvoice.BackColor = System.Drawing.Color.Cornsilk;
             this.btnOkInvoice.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOkInvoice.Location = new System.Drawing.Point(399, 481);
             this.btnOkInvoice.Name = "btnOkInvoice";
             this.btnOkInvoice.Size = new System.Drawing.Size(122, 35);
             this.btnOkInvoice.TabIndex = 10;
             this.btnOkInvoice.Text = "Ok";
-            this.btnOkInvoice.UseVisualStyleBackColor = true;
+            this.btnOkInvoice.UseVisualStyleBackColor = false;
             this.btnOkInvoice.Click += new System.EventHandler(this.btnOkInvoice_Click);
             // 
             // btnCancelInvoice
             // 
+            this.btnCancelInvoice.BackColor = System.Drawing.Color.Ivory;
             this.btnCancelInvoice.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelInvoice.Location = new System.Drawing.Point(527, 481);
             this.btnCancelInvoice.Name = "btnCancelInvoice";
             this.btnCancelInvoice.Size = new System.Drawing.Size(122, 35);
             this.btnCancelInvoice.TabIndex = 11;
             this.btnCancelInvoice.Text = "Cancel";
-            this.btnCancelInvoice.UseVisualStyleBackColor = true;
+            this.btnCancelInvoice.UseVisualStyleBackColor = false;
             this.btnCancelInvoice.Click += new System.EventHandler(this.btnCancelInvoice_Click);
             // 
             // txtDuit
             // 
-            this.txtDuit.Location = new System.Drawing.Point(388, 444);
+            this.txtDuit.BackColor = System.Drawing.SystemColors.Control;
+            this.txtDuit.Location = new System.Drawing.Point(365, 444);
             this.txtDuit.Name = "txtDuit";
-            this.txtDuit.Size = new System.Drawing.Size(261, 20);
+            this.txtDuit.Size = new System.Drawing.Size(284, 20);
             this.txtDuit.TabIndex = 12;
             // 
             // label2
