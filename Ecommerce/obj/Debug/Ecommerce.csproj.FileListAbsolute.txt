@@ -235,3 +235,5 @@ E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\E-Commerce-Windows-Form-Application\E
 E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\E-Commerce-Windows-Form-Application\Ecommerce\obj\Debug\Ecommerce.pdb
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Invoice.resources
 D:\AMIKOM\Pemrograman Lanjut\Ecommerce\Ecommerce\obj\Debug\Ecommerce.View.Profile.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\E-Commerce-Windows-Form-Application\Ecommerce\obj\Debug\Ecommerce.View.Invoice.resources
+E:\Kuliah\Semester 3\Pemrograman Lanjut\FP\E-Commerce-Windows-Form-Application\Ecommerce\obj\Debug\Ecommerce.View.Profile.resources

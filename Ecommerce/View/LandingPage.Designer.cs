@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LandingPage));
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.btnDetail5_3 = new System.Windows.Forms.Button();
+            this.btnBuy5_3 = new System.Windows.Forms.Button();
+            this.btnDetail4_3 = new System.Windows.Forms.Button();
+            this.btnBuy4_3 = new System.Windows.Forms.Button();
+            this.btnDetail3_3 = new System.Windows.Forms.Button();
+            this.btnBuy3_3 = new System.Windows.Forms.Button();
+            this.btnDetail2_3 = new System.Windows.Forms.Button();
+            this.btnBuy2_3 = new System.Windows.Forms.Button();
+            this.btnDetail1_3 = new System.Windows.Forms.Button();
+            this.btnBuy1_3 = new System.Windows.Forms.Button();
             this.btnDetail5_2 = new System.Windows.Forms.Button();
             this.btnBuy5_2 = new System.Windows.Forms.Button();
             this.btnDetail4_2 = new System.Windows.Forms.Button();
@@ -59,16 +59,16 @@
             this.btnBuy2_1 = new System.Windows.Forms.Button();
             this.btnDetail1_1 = new System.Windows.Forms.Button();
             this.btnBuy1_1 = new System.Windows.Forms.Button();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.txtPrice5_3 = new System.Windows.Forms.Label();
+            this.txtTitle5_3 = new System.Windows.Forms.Label();
+            this.txtPrice4_3 = new System.Windows.Forms.Label();
+            this.txtTitle4_3 = new System.Windows.Forms.Label();
+            this.txtPrice3_3 = new System.Windows.Forms.Label();
+            this.txtTitle3_3 = new System.Windows.Forms.Label();
+            this.txtPrice2_3 = new System.Windows.Forms.Label();
+            this.txtTitle2_3 = new System.Windows.Forms.Label();
+            this.txtPrice1_3 = new System.Windows.Forms.Label();
+            this.txtTitle1_3 = new System.Windows.Forms.Label();
             this.txtPrice5_2 = new System.Windows.Forms.Label();
             this.txtTitle5_2 = new System.Windows.Forms.Label();
             this.txtPrice4_2 = new System.Windows.Forms.Label();
@@ -95,13 +95,13 @@
             this.lbl_profil = new System.Windows.Forms.Label();
             this.btn_register = new System.Windows.Forms.Button();
             this.btn_login = new System.Windows.Forms.Button();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.image5_3 = new System.Windows.Forms.PictureBox();
             this.image5_2 = new System.Windows.Forms.PictureBox();
             this.image5_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.image3_3 = new System.Windows.Forms.PictureBox();
+            this.image2_3 = new System.Windows.Forms.PictureBox();
+            this.image1_3 = new System.Windows.Forms.PictureBox();
+            this.image4_3 = new System.Windows.Forms.PictureBox();
             this.image3_2 = new System.Windows.Forms.PictureBox();
             this.image2_2 = new System.Windows.Forms.PictureBox();
             this.image1_2 = new System.Windows.Forms.PictureBox();
@@ -111,32 +111,32 @@
             this.image1_1 = new System.Windows.Forms.PictureBox();
             this.image4_1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.btnDetail5_4 = new System.Windows.Forms.Button();
+            this.btnBuy5_4 = new System.Windows.Forms.Button();
+            this.btnDetail4_4 = new System.Windows.Forms.Button();
+            this.btnBuy4_4 = new System.Windows.Forms.Button();
+            this.btnDetail3_4 = new System.Windows.Forms.Button();
+            this.btnBuy3_4 = new System.Windows.Forms.Button();
+            this.btnDetail2_4 = new System.Windows.Forms.Button();
+            this.btnBuy2_4 = new System.Windows.Forms.Button();
+            this.btnDetail1_4 = new System.Windows.Forms.Button();
+            this.btnBuy1_4 = new System.Windows.Forms.Button();
+            this.txtPrice5_4 = new System.Windows.Forms.Label();
+            this.txtTitle5_4 = new System.Windows.Forms.Label();
+            this.txtPrice4_4 = new System.Windows.Forms.Label();
+            this.txtTitle4_4 = new System.Windows.Forms.Label();
+            this.txtPrice3_4 = new System.Windows.Forms.Label();
+            this.txtTitle3_4 = new System.Windows.Forms.Label();
+            this.txtPrice2_4 = new System.Windows.Forms.Label();
+            this.txtTitle2_4 = new System.Windows.Forms.Label();
+            this.txtPrice1_4 = new System.Windows.Forms.Label();
+            this.txtTitle1_4 = new System.Windows.Forms.Label();
+            this.image5_4 = new System.Windows.Forms.PictureBox();
+            this.txtCategory4 = new System.Windows.Forms.Label();
+            this.image3_4 = new System.Windows.Forms.PictureBox();
+            this.image2_4 = new System.Windows.Forms.PictureBox();
+            this.image1_4 = new System.Windows.Forms.PictureBox();
+            this.image4_4 = new System.Windows.Forms.PictureBox();
             this.btnAdminListCategory = new System.Windows.Forms.Button();
             this.btnAdminListProducts = new System.Windows.Forms.Button();
             this.idProduct1_1 = new System.Windows.Forms.Label();
@@ -149,13 +149,55 @@
             this.idProduct3_2 = new System.Windows.Forms.Label();
             this.idProduct4_2 = new System.Windows.Forms.Label();
             this.idProduct5_2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.idProduct1_3 = new System.Windows.Forms.Label();
+            this.idProduct2_3 = new System.Windows.Forms.Label();
+            this.idProduct4_3 = new System.Windows.Forms.Label();
+            this.idProduct5_3 = new System.Windows.Forms.Label();
+            this.idProduct3_3 = new System.Windows.Forms.Label();
+            this.idProduct1_4 = new System.Windows.Forms.Label();
+            this.idProduct2_4 = new System.Windows.Forms.Label();
+            this.idProduct3_4 = new System.Windows.Forms.Label();
+            this.idProduct4_4 = new System.Windows.Forms.Label();
+            this.idProduct5_4 = new System.Windows.Forms.Label();
+            this.idProduct5_5 = new System.Windows.Forms.Label();
+            this.idProduct4_5 = new System.Windows.Forms.Label();
+            this.idProduct3_5 = new System.Windows.Forms.Label();
+            this.idProduct2_5 = new System.Windows.Forms.Label();
+            this.idProduct1_5 = new System.Windows.Forms.Label();
+            this.btnDetail5_5 = new System.Windows.Forms.Button();
+            this.btnBuy5_5 = new System.Windows.Forms.Button();
+            this.btnDetail4_5 = new System.Windows.Forms.Button();
+            this.btnBuy4_5 = new System.Windows.Forms.Button();
+            this.btnDetail3_5 = new System.Windows.Forms.Button();
+            this.btnBuy3_5 = new System.Windows.Forms.Button();
+            this.btnDetail2_5 = new System.Windows.Forms.Button();
+            this.btnBuy2_5 = new System.Windows.Forms.Button();
+            this.btnDetail1_5 = new System.Windows.Forms.Button();
+            this.btnBuy1_5 = new System.Windows.Forms.Button();
+            this.txtPrice5_5 = new System.Windows.Forms.Label();
+            this.txtTitle5_5 = new System.Windows.Forms.Label();
+            this.txtPrice4_5 = new System.Windows.Forms.Label();
+            this.txtTitle4_5 = new System.Windows.Forms.Label();
+            this.txtPrice3_5 = new System.Windows.Forms.Label();
+            this.txtTitle3_5 = new System.Windows.Forms.Label();
+            this.txtPrice2_5 = new System.Windows.Forms.Label();
+            this.txtTitle2_5 = new System.Windows.Forms.Label();
+            this.txtPrice1_5 = new System.Windows.Forms.Label();
+            this.txtTitle1_5 = new System.Windows.Forms.Label();
+            this.image5_5 = new System.Windows.Forms.PictureBox();
+            this.txtCategory5 = new System.Windows.Forms.Label();
+            this.image3_5 = new System.Windows.Forms.PictureBox();
+            this.image2_5 = new System.Windows.Forms.PictureBox();
+            this.image1_5 = new System.Windows.Forms.PictureBox();
+            this.image4_5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxProfile = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image5_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image5_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image3_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image2_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image1_2)).BeginInit();
@@ -165,412 +207,450 @@
             ((System.ComponentModel.ISupportInitialize)(this.image1_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image4_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfile)).BeginInit();
             this.SuspendLayout();
             // 
-            // button29
+            // btnDetail5_3
             // 
-            this.button29.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(1037, 1030);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(70, 32);
-            this.button29.TabIndex = 181;
-            this.button29.Text = "Detail";
-            this.button29.UseVisualStyleBackColor = true;
+            this.btnDetail5_3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail5_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail5_3.Location = new System.Drawing.Point(1037, 1030);
+            this.btnDetail5_3.Name = "btnDetail5_3";
+            this.btnDetail5_3.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail5_3.TabIndex = 181;
+            this.btnDetail5_3.Text = "Detail";
+            this.btnDetail5_3.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // btnBuy5_3
             // 
-            this.button30.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(957, 1030);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(70, 32);
-            this.button30.TabIndex = 180;
-            this.button30.Text = "Buy";
-            this.button30.UseVisualStyleBackColor = true;
+            this.btnBuy5_3.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy5_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy5_3.Location = new System.Drawing.Point(957, 1030);
+            this.btnBuy5_3.Name = "btnBuy5_3";
+            this.btnBuy5_3.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy5_3.TabIndex = 180;
+            this.btnBuy5_3.Text = "Buy";
+            this.btnBuy5_3.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // btnDetail4_3
             // 
-            this.button27.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(819, 1030);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(70, 32);
-            this.button27.TabIndex = 179;
-            this.button27.Text = "Detail";
-            this.button27.UseVisualStyleBackColor = true;
+            this.btnDetail4_3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail4_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail4_3.Location = new System.Drawing.Point(819, 1030);
+            this.btnDetail4_3.Name = "btnDetail4_3";
+            this.btnDetail4_3.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail4_3.TabIndex = 179;
+            this.btnDetail4_3.Text = "Detail";
+            this.btnDetail4_3.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btnBuy4_3
             // 
-            this.button28.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(739, 1030);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(70, 32);
-            this.button28.TabIndex = 178;
-            this.button28.Text = "Buy";
-            this.button28.UseVisualStyleBackColor = true;
+            this.btnBuy4_3.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy4_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy4_3.Location = new System.Drawing.Point(739, 1030);
+            this.btnBuy4_3.Name = "btnBuy4_3";
+            this.btnBuy4_3.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy4_3.TabIndex = 178;
+            this.btnBuy4_3.Text = "Buy";
+            this.btnBuy4_3.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // btnDetail3_3
             // 
-            this.button25.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.Location = new System.Drawing.Point(597, 1030);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(70, 32);
-            this.button25.TabIndex = 177;
-            this.button25.Text = "Detail";
-            this.button25.UseVisualStyleBackColor = true;
+            this.btnDetail3_3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail3_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail3_3.Location = new System.Drawing.Point(597, 1030);
+            this.btnDetail3_3.Name = "btnDetail3_3";
+            this.btnDetail3_3.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail3_3.TabIndex = 177;
+            this.btnDetail3_3.Text = "Detail";
+            this.btnDetail3_3.UseVisualStyleBackColor = false;
             // 
-            // button26
+            // btnBuy3_3
             // 
-            this.button26.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(517, 1030);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(70, 32);
-            this.button26.TabIndex = 176;
-            this.button26.Text = "Buy";
-            this.button26.UseVisualStyleBackColor = true;
+            this.btnBuy3_3.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy3_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy3_3.Location = new System.Drawing.Point(517, 1030);
+            this.btnBuy3_3.Name = "btnBuy3_3";
+            this.btnBuy3_3.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy3_3.TabIndex = 176;
+            this.btnBuy3_3.Text = "Buy";
+            this.btnBuy3_3.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // btnDetail2_3
             // 
-            this.button23.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(376, 1030);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(70, 32);
-            this.button23.TabIndex = 175;
-            this.button23.Text = "Detail";
-            this.button23.UseVisualStyleBackColor = true;
+            this.btnDetail2_3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail2_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail2_3.Location = new System.Drawing.Point(376, 1030);
+            this.btnDetail2_3.Name = "btnDetail2_3";
+            this.btnDetail2_3.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail2_3.TabIndex = 175;
+            this.btnDetail2_3.Text = "Detail";
+            this.btnDetail2_3.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // btnBuy2_3
             // 
-            this.button24.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(296, 1030);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(70, 32);
-            this.button24.TabIndex = 174;
-            this.button24.Text = "Buy";
-            this.button24.UseVisualStyleBackColor = true;
+            this.btnBuy2_3.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy2_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy2_3.Location = new System.Drawing.Point(296, 1030);
+            this.btnBuy2_3.Name = "btnBuy2_3";
+            this.btnBuy2_3.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy2_3.TabIndex = 174;
+            this.btnBuy2_3.Text = "Buy";
+            this.btnBuy2_3.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // btnDetail1_3
             // 
-            this.button21.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(156, 1030);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(70, 32);
-            this.button21.TabIndex = 173;
-            this.button21.Text = "Detail";
-            this.button21.UseVisualStyleBackColor = true;
+            this.btnDetail1_3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail1_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail1_3.Location = new System.Drawing.Point(156, 1030);
+            this.btnDetail1_3.Name = "btnDetail1_3";
+            this.btnDetail1_3.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail1_3.TabIndex = 173;
+            this.btnDetail1_3.Text = "Detail";
+            this.btnDetail1_3.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btnBuy1_3
             // 
-            this.button22.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(76, 1030);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(70, 32);
-            this.button22.TabIndex = 172;
-            this.button22.Text = "Buy";
-            this.button22.UseVisualStyleBackColor = true;
+            this.btnBuy1_3.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy1_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy1_3.Location = new System.Drawing.Point(76, 1030);
+            this.btnBuy1_3.Name = "btnBuy1_3";
+            this.btnBuy1_3.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy1_3.TabIndex = 172;
+            this.btnBuy1_3.Text = "Buy";
+            this.btnBuy1_3.UseVisualStyleBackColor = false;
             // 
             // btnDetail5_2
             // 
+            this.btnDetail5_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail5_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail5_2.Location = new System.Drawing.Point(1041, 691);
             this.btnDetail5_2.Name = "btnDetail5_2";
             this.btnDetail5_2.Size = new System.Drawing.Size(70, 32);
             this.btnDetail5_2.TabIndex = 171;
             this.btnDetail5_2.Text = "Detail";
-            this.btnDetail5_2.UseVisualStyleBackColor = true;
+            this.btnDetail5_2.UseVisualStyleBackColor = false;
             // 
             // btnBuy5_2
             // 
+            this.btnBuy5_2.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy5_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy5_2.Location = new System.Drawing.Point(957, 691);
             this.btnBuy5_2.Name = "btnBuy5_2";
             this.btnBuy5_2.Size = new System.Drawing.Size(70, 32);
             this.btnBuy5_2.TabIndex = 170;
             this.btnBuy5_2.Text = "Buy";
-            this.btnBuy5_2.UseVisualStyleBackColor = true;
+            this.btnBuy5_2.UseVisualStyleBackColor = false;
             // 
             // btnDetail4_2
             // 
+            this.btnDetail4_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail4_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail4_2.Location = new System.Drawing.Point(819, 691);
             this.btnDetail4_2.Name = "btnDetail4_2";
             this.btnDetail4_2.Size = new System.Drawing.Size(70, 32);
             this.btnDetail4_2.TabIndex = 169;
             this.btnDetail4_2.Text = "Detail";
-            this.btnDetail4_2.UseVisualStyleBackColor = true;
+            this.btnDetail4_2.UseVisualStyleBackColor = false;
             // 
             // btnBuy4_2
             // 
+            this.btnBuy4_2.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy4_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy4_2.Location = new System.Drawing.Point(739, 691);
             this.btnBuy4_2.Name = "btnBuy4_2";
             this.btnBuy4_2.Size = new System.Drawing.Size(70, 32);
             this.btnBuy4_2.TabIndex = 168;
             this.btnBuy4_2.Text = "Buy";
-            this.btnBuy4_2.UseVisualStyleBackColor = true;
+            this.btnBuy4_2.UseVisualStyleBackColor = false;
             // 
             // btnDetail3_2
             // 
+            this.btnDetail3_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail3_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail3_2.Location = new System.Drawing.Point(597, 691);
             this.btnDetail3_2.Name = "btnDetail3_2";
             this.btnDetail3_2.Size = new System.Drawing.Size(70, 32);
             this.btnDetail3_2.TabIndex = 167;
             this.btnDetail3_2.Text = "Detail";
-            this.btnDetail3_2.UseVisualStyleBackColor = true;
+            this.btnDetail3_2.UseVisualStyleBackColor = false;
             // 
             // btnBuy3_2
             // 
+            this.btnBuy3_2.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy3_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy3_2.Location = new System.Drawing.Point(517, 691);
             this.btnBuy3_2.Name = "btnBuy3_2";
             this.btnBuy3_2.Size = new System.Drawing.Size(70, 32);
             this.btnBuy3_2.TabIndex = 166;
             this.btnBuy3_2.Text = "Buy";
-            this.btnBuy3_2.UseVisualStyleBackColor = true;
+            this.btnBuy3_2.UseVisualStyleBackColor = false;
             // 
             // btnDetail2_2
             // 
+            this.btnDetail2_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail2_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail2_2.Location = new System.Drawing.Point(376, 691);
             this.btnDetail2_2.Name = "btnDetail2_2";
             this.btnDetail2_2.Size = new System.Drawing.Size(70, 32);
             this.btnDetail2_2.TabIndex = 165;
             this.btnDetail2_2.Text = "Detail";
-            this.btnDetail2_2.UseVisualStyleBackColor = true;
+            this.btnDetail2_2.UseVisualStyleBackColor = false;
             // 
             // btnBuy2_2
             // 
+            this.btnBuy2_2.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy2_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy2_2.Location = new System.Drawing.Point(296, 691);
             this.btnBuy2_2.Name = "btnBuy2_2";
             this.btnBuy2_2.Size = new System.Drawing.Size(70, 32);
             this.btnBuy2_2.TabIndex = 164;
             this.btnBuy2_2.Text = "Buy";
-            this.btnBuy2_2.UseVisualStyleBackColor = true;
+            this.btnBuy2_2.UseVisualStyleBackColor = false;
             // 
             // btnDetail1_2
             // 
+            this.btnDetail1_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail1_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail1_2.Location = new System.Drawing.Point(156, 691);
             this.btnDetail1_2.Name = "btnDetail1_2";
             this.btnDetail1_2.Size = new System.Drawing.Size(70, 32);
             this.btnDetail1_2.TabIndex = 163;
             this.btnDetail1_2.Text = "Detail";
-            this.btnDetail1_2.UseVisualStyleBackColor = true;
+            this.btnDetail1_2.UseVisualStyleBackColor = false;
             // 
             // btnBuy1_2
             // 
+            this.btnBuy1_2.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy1_2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy1_2.Location = new System.Drawing.Point(76, 691);
             this.btnBuy1_2.Name = "btnBuy1_2";
             this.btnBuy1_2.Size = new System.Drawing.Size(70, 32);
             this.btnBuy1_2.TabIndex = 162;
             this.btnBuy1_2.Text = "Buy";
-            this.btnBuy1_2.UseVisualStyleBackColor = true;
+            this.btnBuy1_2.UseVisualStyleBackColor = false;
             // 
             // btnDetail5_1
             // 
+            this.btnDetail5_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail5_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail5_1.Location = new System.Drawing.Point(1037, 349);
             this.btnDetail5_1.Name = "btnDetail5_1";
             this.btnDetail5_1.Size = new System.Drawing.Size(70, 32);
             this.btnDetail5_1.TabIndex = 161;
             this.btnDetail5_1.Text = "Detail";
-            this.btnDetail5_1.UseVisualStyleBackColor = true;
+            this.btnDetail5_1.UseVisualStyleBackColor = false;
             // 
             // btnBuy5_1
             // 
+            this.btnBuy5_1.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy5_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy5_1.Location = new System.Drawing.Point(957, 349);
             this.btnBuy5_1.Name = "btnBuy5_1";
             this.btnBuy5_1.Size = new System.Drawing.Size(70, 32);
             this.btnBuy5_1.TabIndex = 160;
             this.btnBuy5_1.Text = "Buy";
-            this.btnBuy5_1.UseVisualStyleBackColor = true;
+            this.btnBuy5_1.UseVisualStyleBackColor = false;
             // 
             // btnDetail4_1
             // 
+            this.btnDetail4_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail4_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail4_1.Location = new System.Drawing.Point(819, 349);
             this.btnDetail4_1.Name = "btnDetail4_1";
             this.btnDetail4_1.Size = new System.Drawing.Size(70, 32);
             this.btnDetail4_1.TabIndex = 159;
             this.btnDetail4_1.Text = "Detail";
-            this.btnDetail4_1.UseVisualStyleBackColor = true;
+            this.btnDetail4_1.UseVisualStyleBackColor = false;
             // 
             // btnBuy4_1
             // 
+            this.btnBuy4_1.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy4_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy4_1.Location = new System.Drawing.Point(739, 349);
             this.btnBuy4_1.Name = "btnBuy4_1";
             this.btnBuy4_1.Size = new System.Drawing.Size(70, 32);
             this.btnBuy4_1.TabIndex = 158;
             this.btnBuy4_1.Text = "Buy";
-            this.btnBuy4_1.UseVisualStyleBackColor = true;
+            this.btnBuy4_1.UseVisualStyleBackColor = false;
             // 
             // btnDetail3_1
             // 
+            this.btnDetail3_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail3_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail3_1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDetail3_1.Location = new System.Drawing.Point(597, 349);
             this.btnDetail3_1.Name = "btnDetail3_1";
             this.btnDetail3_1.Size = new System.Drawing.Size(70, 32);
             this.btnDetail3_1.TabIndex = 157;
             this.btnDetail3_1.Text = "Detail";
-            this.btnDetail3_1.UseVisualStyleBackColor = true;
+            this.btnDetail3_1.UseVisualStyleBackColor = false;
             // 
             // btnBuy3_1
             // 
+            this.btnBuy3_1.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy3_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy3_1.Location = new System.Drawing.Point(517, 349);
             this.btnBuy3_1.Name = "btnBuy3_1";
             this.btnBuy3_1.Size = new System.Drawing.Size(70, 32);
             this.btnBuy3_1.TabIndex = 156;
             this.btnBuy3_1.Text = "Buy";
-            this.btnBuy3_1.UseVisualStyleBackColor = true;
+            this.btnBuy3_1.UseVisualStyleBackColor = false;
             // 
             // btnDetail2_1
             // 
+            this.btnDetail2_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail2_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail2_1.Location = new System.Drawing.Point(376, 349);
             this.btnDetail2_1.Name = "btnDetail2_1";
             this.btnDetail2_1.Size = new System.Drawing.Size(70, 32);
             this.btnDetail2_1.TabIndex = 155;
             this.btnDetail2_1.Text = "Detail";
-            this.btnDetail2_1.UseVisualStyleBackColor = true;
+            this.btnDetail2_1.UseVisualStyleBackColor = false;
             // 
             // btnBuy2_1
             // 
-            this.btnBuy2_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy2_1.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy2_1.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy2_1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnBuy2_1.Location = new System.Drawing.Point(296, 349);
             this.btnBuy2_1.Name = "btnBuy2_1";
             this.btnBuy2_1.Size = new System.Drawing.Size(70, 32);
             this.btnBuy2_1.TabIndex = 154;
             this.btnBuy2_1.Text = "Buy";
-            this.btnBuy2_1.UseVisualStyleBackColor = true;
+            this.btnBuy2_1.UseVisualStyleBackColor = false;
             // 
             // btnDetail1_1
             // 
+            this.btnDetail1_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnDetail1_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail1_1.Location = new System.Drawing.Point(156, 349);
             this.btnDetail1_1.Name = "btnDetail1_1";
             this.btnDetail1_1.Size = new System.Drawing.Size(70, 32);
             this.btnDetail1_1.TabIndex = 153;
             this.btnDetail1_1.Text = "Detail";
-            this.btnDetail1_1.UseVisualStyleBackColor = true;
+            this.btnDetail1_1.UseVisualStyleBackColor = false;
             // 
             // btnBuy1_1
             // 
+            this.btnBuy1_1.BackColor = System.Drawing.Color.Lavender;
             this.btnBuy1_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy1_1.Location = new System.Drawing.Point(77, 349);
             this.btnBuy1_1.Name = "btnBuy1_1";
             this.btnBuy1_1.Size = new System.Drawing.Size(70, 32);
             this.btnBuy1_1.TabIndex = 152;
             this.btnBuy1_1.Text = "Buy";
-            this.btnBuy1_1.UseVisualStyleBackColor = true;
+            this.btnBuy1_1.UseVisualStyleBackColor = false;
             // 
-            // label32
+            // txtPrice5_3
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(951, 999);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(76, 19);
-            this.label32.TabIndex = 151;
-            this.label32.Text = "Rp5.000.000";
+            this.txtPrice5_3.AutoSize = true;
+            this.txtPrice5_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice5_3.Location = new System.Drawing.Point(951, 999);
+            this.txtPrice5_3.Name = "txtPrice5_3";
+            this.txtPrice5_3.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice5_3.TabIndex = 151;
+            this.txtPrice5_3.Text = "Rp5.000.000";
             // 
-            // label33
+            // txtTitle5_3
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(951, 971);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(115, 25);
-            this.label33.TabIndex = 150;
-            this.label33.Text = "Nama Barang";
+            this.txtTitle5_3.AutoSize = true;
+            this.txtTitle5_3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle5_3.Location = new System.Drawing.Point(951, 971);
+            this.txtTitle5_3.Name = "txtTitle5_3";
+            this.txtTitle5_3.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle5_3.TabIndex = 150;
+            this.txtTitle5_3.Text = "Nama Barang";
             // 
-            // label30
+            // txtPrice4_3
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(734, 999);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(76, 19);
-            this.label30.TabIndex = 149;
-            this.label30.Text = "Rp5.000.000";
+            this.txtPrice4_3.AutoSize = true;
+            this.txtPrice4_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice4_3.Location = new System.Drawing.Point(734, 999);
+            this.txtPrice4_3.Name = "txtPrice4_3";
+            this.txtPrice4_3.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice4_3.TabIndex = 149;
+            this.txtPrice4_3.Text = "Rp5.000.000";
             // 
-            // label31
+            // txtTitle4_3
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(734, 971);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(115, 25);
-            this.label31.TabIndex = 148;
-            this.label31.Text = "Nama Barang";
+            this.txtTitle4_3.AutoSize = true;
+            this.txtTitle4_3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle4_3.Location = new System.Drawing.Point(734, 971);
+            this.txtTitle4_3.Name = "txtTitle4_3";
+            this.txtTitle4_3.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle4_3.TabIndex = 148;
+            this.txtTitle4_3.Text = "Nama Barang";
             // 
-            // label28
+            // txtPrice3_3
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(511, 999);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(76, 19);
-            this.label28.TabIndex = 147;
-            this.label28.Text = "Rp5.000.000";
+            this.txtPrice3_3.AutoSize = true;
+            this.txtPrice3_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice3_3.Location = new System.Drawing.Point(511, 999);
+            this.txtPrice3_3.Name = "txtPrice3_3";
+            this.txtPrice3_3.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice3_3.TabIndex = 147;
+            this.txtPrice3_3.Text = "Rp5.000.000";
             // 
-            // label29
+            // txtTitle3_3
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(511, 971);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(115, 25);
-            this.label29.TabIndex = 146;
-            this.label29.Text = "Nama Barang";
+            this.txtTitle3_3.AutoSize = true;
+            this.txtTitle3_3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle3_3.Location = new System.Drawing.Point(511, 971);
+            this.txtTitle3_3.Name = "txtTitle3_3";
+            this.txtTitle3_3.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle3_3.TabIndex = 146;
+            this.txtTitle3_3.Text = "Nama Barang";
             // 
-            // label26
+            // txtPrice2_3
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(290, 999);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(76, 19);
-            this.label26.TabIndex = 145;
-            this.label26.Text = "Rp5.000.000";
+            this.txtPrice2_3.AutoSize = true;
+            this.txtPrice2_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice2_3.Location = new System.Drawing.Point(290, 999);
+            this.txtPrice2_3.Name = "txtPrice2_3";
+            this.txtPrice2_3.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice2_3.TabIndex = 145;
+            this.txtPrice2_3.Text = "Rp5.000.000";
             // 
-            // label27
+            // txtTitle2_3
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(290, 971);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(115, 25);
-            this.label27.TabIndex = 144;
-            this.label27.Text = "Nama Barang";
+            this.txtTitle2_3.AutoSize = true;
+            this.txtTitle2_3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle2_3.Location = new System.Drawing.Point(290, 971);
+            this.txtTitle2_3.Name = "txtTitle2_3";
+            this.txtTitle2_3.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle2_3.TabIndex = 144;
+            this.txtTitle2_3.Text = "Nama Barang";
             // 
-            // label24
+            // txtPrice1_3
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(71, 999);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(76, 19);
-            this.label24.TabIndex = 143;
-            this.label24.Text = "Rp5.000.000";
+            this.txtPrice1_3.AutoSize = true;
+            this.txtPrice1_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice1_3.Location = new System.Drawing.Point(71, 999);
+            this.txtPrice1_3.Name = "txtPrice1_3";
+            this.txtPrice1_3.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice1_3.TabIndex = 143;
+            this.txtPrice1_3.Text = "Rp5.000.000";
             // 
-            // label25
+            // txtTitle1_3
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(71, 971);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(115, 25);
-            this.label25.TabIndex = 142;
-            this.label25.Text = "Nama Barang";
+            this.txtTitle1_3.AutoSize = true;
+            this.txtTitle1_3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle1_3.Location = new System.Drawing.Point(71, 971);
+            this.txtTitle1_3.Name = "txtTitle1_3";
+            this.txtTitle1_3.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle1_3.TabIndex = 142;
+            this.txtTitle1_3.Text = "Nama Barang";
             // 
             // txtPrice5_2
             // 
@@ -806,15 +886,17 @@
             // 
             this.lbl_profil.AutoSize = true;
             this.lbl_profil.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_profil.Location = new System.Drawing.Point(884, 82);
+            this.lbl_profil.Location = new System.Drawing.Point(837, 78);
             this.lbl_profil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_profil.Name = "lbl_profil";
             this.lbl_profil.Size = new System.Drawing.Size(48, 28);
             this.lbl_profil.TabIndex = 103;
             this.lbl_profil.Text = "Halo";
+            this.lbl_profil.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // btn_register
             // 
+            this.btn_register.BackColor = System.Drawing.Color.LightCyan;
             this.btn_register.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_register.Location = new System.Drawing.Point(1006, 22);
             this.btn_register.Margin = new System.Windows.Forms.Padding(4, 9, 4, 9);
@@ -822,12 +904,12 @@
             this.btn_register.Size = new System.Drawing.Size(105, 39);
             this.btn_register.TabIndex = 102;
             this.btn_register.Text = "Register";
-            this.btn_register.UseVisualStyleBackColor = true;
+            this.btn_register.UseVisualStyleBackColor = false;
             this.btn_register.Click += new System.EventHandler(this.btn_register_Click);
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_login.BackColor = System.Drawing.Color.LightCyan;
             this.btn_login.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_login.Location = new System.Drawing.Point(889, 22);
@@ -839,14 +921,14 @@
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
-            // pictureBox15
+            // image5_3
             // 
-            this.pictureBox15.Location = new System.Drawing.Point(957, 817);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox15.TabIndex = 131;
-            this.pictureBox15.TabStop = false;
+            this.image5_3.Location = new System.Drawing.Point(957, 817);
+            this.image5_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image5_3.Name = "image5_3";
+            this.image5_3.Size = new System.Drawing.Size(150, 150);
+            this.image5_3.TabIndex = 131;
+            this.image5_3.TabStop = false;
             // 
             // image5_2
             // 
@@ -868,41 +950,41 @@
             this.image5_1.TabIndex = 123;
             this.image5_1.TabStop = false;
             // 
-            // pictureBox9
+            // image3_3
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(517, 817);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox9.TabIndex = 115;
-            this.pictureBox9.TabStop = false;
+            this.image3_3.Location = new System.Drawing.Point(517, 817);
+            this.image3_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image3_3.Name = "image3_3";
+            this.image3_3.Size = new System.Drawing.Size(150, 150);
+            this.image3_3.TabIndex = 115;
+            this.image3_3.TabStop = false;
             // 
-            // pictureBox10
+            // image2_3
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(296, 817);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox10.TabIndex = 114;
-            this.pictureBox10.TabStop = false;
+            this.image2_3.Location = new System.Drawing.Point(296, 817);
+            this.image2_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image2_3.Name = "image2_3";
+            this.image2_3.Size = new System.Drawing.Size(150, 150);
+            this.image2_3.TabIndex = 114;
+            this.image2_3.TabStop = false;
             // 
-            // pictureBox11
+            // image1_3
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(76, 817);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox11.TabIndex = 113;
-            this.pictureBox11.TabStop = false;
+            this.image1_3.Location = new System.Drawing.Point(76, 817);
+            this.image1_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image1_3.Name = "image1_3";
+            this.image1_3.Size = new System.Drawing.Size(150, 150);
+            this.image1_3.TabIndex = 113;
+            this.image1_3.TabStop = false;
             // 
-            // pictureBox12
+            // image4_3
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(739, 817);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox12.TabIndex = 112;
-            this.pictureBox12.TabStop = false;
+            this.image4_3.Location = new System.Drawing.Point(739, 817);
+            this.image4_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image4_3.Name = "image4_3";
+            this.image4_3.Size = new System.Drawing.Size(150, 150);
+            this.image4_3.TabIndex = 112;
+            this.image4_3.TabStop = false;
             // 
             // image3_2
             // 
@@ -989,292 +1071,306 @@
             this.pictureBoxLogout.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogout.Image")));
             this.pictureBoxLogout.Location = new System.Drawing.Point(1081, 80);
             this.pictureBoxLogout.Name = "pictureBoxLogout";
-            this.pictureBoxLogout.Size = new System.Drawing.Size(30, 30);
+            this.pictureBoxLogout.Size = new System.Drawing.Size(20, 20);
             this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogout.TabIndex = 183;
             this.pictureBoxLogout.TabStop = false;
             this.pictureBoxLogout.Click += new System.EventHandler(this.pictureBoxLogout_Click);
             // 
-            // button1
+            // btnDetail5_4
             // 
-            this.button1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1037, 1383);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 32);
-            this.button1.TabIndex = 209;
-            this.button1.Text = "Detail";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDetail5_4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail5_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail5_4.Location = new System.Drawing.Point(1037, 1383);
+            this.btnDetail5_4.Name = "btnDetail5_4";
+            this.btnDetail5_4.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail5_4.TabIndex = 209;
+            this.btnDetail5_4.Text = "Detail";
+            this.btnDetail5_4.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnBuy5_4
             // 
-            this.button2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(957, 1383);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 32);
-            this.button2.TabIndex = 208;
-            this.button2.Text = "Buy";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBuy5_4.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy5_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy5_4.Location = new System.Drawing.Point(957, 1383);
+            this.btnBuy5_4.Name = "btnBuy5_4";
+            this.btnBuy5_4.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy5_4.TabIndex = 208;
+            this.btnBuy5_4.Text = "Buy";
+            this.btnBuy5_4.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnDetail4_4
             // 
-            this.button3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(819, 1383);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 32);
-            this.button3.TabIndex = 207;
-            this.button3.Text = "Detail";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDetail4_4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail4_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail4_4.Location = new System.Drawing.Point(819, 1383);
+            this.btnDetail4_4.Name = "btnDetail4_4";
+            this.btnDetail4_4.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail4_4.TabIndex = 207;
+            this.btnDetail4_4.Text = "Detail";
+            this.btnDetail4_4.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnBuy4_4
             // 
-            this.button4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(739, 1383);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(70, 32);
-            this.button4.TabIndex = 206;
-            this.button4.Text = "Buy";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnBuy4_4.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy4_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy4_4.Location = new System.Drawing.Point(739, 1383);
+            this.btnBuy4_4.Name = "btnBuy4_4";
+            this.btnBuy4_4.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy4_4.TabIndex = 206;
+            this.btnBuy4_4.Text = "Buy";
+            this.btnBuy4_4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnDetail3_4
             // 
-            this.button5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(597, 1383);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(70, 32);
-            this.button5.TabIndex = 205;
-            this.button5.Text = "Detail";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDetail3_4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail3_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail3_4.Location = new System.Drawing.Point(597, 1383);
+            this.btnDetail3_4.Name = "btnDetail3_4";
+            this.btnDetail3_4.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail3_4.TabIndex = 205;
+            this.btnDetail3_4.Text = "Detail";
+            this.btnDetail3_4.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnBuy3_4
             // 
-            this.button6.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(517, 1383);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(70, 32);
-            this.button6.TabIndex = 204;
-            this.button6.Text = "Buy";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnBuy3_4.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy3_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy3_4.Location = new System.Drawing.Point(517, 1383);
+            this.btnBuy3_4.Name = "btnBuy3_4";
+            this.btnBuy3_4.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy3_4.TabIndex = 204;
+            this.btnBuy3_4.Text = "Buy";
+            this.btnBuy3_4.UseVisualStyleBackColor = false;
             // 
-            // button31
+            // btnDetail2_4
             // 
-            this.button31.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(376, 1383);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(70, 32);
-            this.button31.TabIndex = 203;
-            this.button31.Text = "Detail";
-            this.button31.UseVisualStyleBackColor = true;
+            this.btnDetail2_4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail2_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail2_4.Location = new System.Drawing.Point(376, 1383);
+            this.btnDetail2_4.Name = "btnDetail2_4";
+            this.btnDetail2_4.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail2_4.TabIndex = 203;
+            this.btnDetail2_4.Text = "Detail";
+            this.btnDetail2_4.UseVisualStyleBackColor = false;
             // 
-            // button32
+            // btnBuy2_4
             // 
-            this.button32.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(296, 1383);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(70, 32);
-            this.button32.TabIndex = 202;
-            this.button32.Text = "Buy";
-            this.button32.UseVisualStyleBackColor = true;
+            this.btnBuy2_4.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy2_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy2_4.Location = new System.Drawing.Point(296, 1383);
+            this.btnBuy2_4.Name = "btnBuy2_4";
+            this.btnBuy2_4.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy2_4.TabIndex = 202;
+            this.btnBuy2_4.Text = "Buy";
+            this.btnBuy2_4.UseVisualStyleBackColor = false;
             // 
-            // button33
+            // btnDetail1_4
             // 
-            this.button33.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Location = new System.Drawing.Point(156, 1383);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(70, 32);
-            this.button33.TabIndex = 201;
-            this.button33.Text = "Detail";
-            this.button33.UseVisualStyleBackColor = true;
+            this.btnDetail1_4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail1_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail1_4.Location = new System.Drawing.Point(156, 1383);
+            this.btnDetail1_4.Name = "btnDetail1_4";
+            this.btnDetail1_4.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail1_4.TabIndex = 201;
+            this.btnDetail1_4.Text = "Detail";
+            this.btnDetail1_4.UseVisualStyleBackColor = false;
             // 
-            // button34
+            // btnBuy1_4
             // 
-            this.button34.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(76, 1383);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(70, 32);
-            this.button34.TabIndex = 200;
-            this.button34.Text = "Buy";
-            this.button34.UseVisualStyleBackColor = true;
+            this.btnBuy1_4.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy1_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy1_4.Location = new System.Drawing.Point(76, 1383);
+            this.btnBuy1_4.Name = "btnBuy1_4";
+            this.btnBuy1_4.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy1_4.TabIndex = 200;
+            this.btnBuy1_4.Text = "Buy";
+            this.btnBuy1_4.UseVisualStyleBackColor = false;
             // 
-            // label34
+            // txtPrice5_4
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(951, 1352);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(76, 19);
-            this.label34.TabIndex = 199;
-            this.label34.Text = "Rp5.000.000";
+            this.txtPrice5_4.AutoSize = true;
+            this.txtPrice5_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice5_4.Location = new System.Drawing.Point(951, 1352);
+            this.txtPrice5_4.Name = "txtPrice5_4";
+            this.txtPrice5_4.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice5_4.TabIndex = 199;
+            this.txtPrice5_4.Text = "Rp5.000.000";
             // 
-            // label35
+            // txtTitle5_4
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(951, 1324);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(115, 25);
-            this.label35.TabIndex = 198;
-            this.label35.Text = "Nama Barang";
+            this.txtTitle5_4.AutoSize = true;
+            this.txtTitle5_4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle5_4.Location = new System.Drawing.Point(951, 1324);
+            this.txtTitle5_4.Name = "txtTitle5_4";
+            this.txtTitle5_4.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle5_4.TabIndex = 198;
+            this.txtTitle5_4.Text = "Nama Barang";
             // 
-            // label36
+            // txtPrice4_4
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(734, 1352);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(76, 19);
-            this.label36.TabIndex = 197;
-            this.label36.Text = "Rp5.000.000";
+            this.txtPrice4_4.AutoSize = true;
+            this.txtPrice4_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice4_4.Location = new System.Drawing.Point(734, 1352);
+            this.txtPrice4_4.Name = "txtPrice4_4";
+            this.txtPrice4_4.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice4_4.TabIndex = 197;
+            this.txtPrice4_4.Text = "Rp5.000.000";
             // 
-            // label37
+            // txtTitle4_4
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(734, 1324);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(115, 25);
-            this.label37.TabIndex = 196;
-            this.label37.Text = "Nama Barang";
+            this.txtTitle4_4.AutoSize = true;
+            this.txtTitle4_4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle4_4.Location = new System.Drawing.Point(734, 1324);
+            this.txtTitle4_4.Name = "txtTitle4_4";
+            this.txtTitle4_4.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle4_4.TabIndex = 196;
+            this.txtTitle4_4.Text = "Nama Barang";
             // 
-            // label38
+            // txtPrice3_4
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(511, 1352);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(76, 19);
-            this.label38.TabIndex = 195;
-            this.label38.Text = "Rp5.000.000";
+            this.txtPrice3_4.AutoSize = true;
+            this.txtPrice3_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice3_4.Location = new System.Drawing.Point(511, 1352);
+            this.txtPrice3_4.Name = "txtPrice3_4";
+            this.txtPrice3_4.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice3_4.TabIndex = 195;
+            this.txtPrice3_4.Text = "Rp5.000.000";
             // 
-            // label39
+            // txtTitle3_4
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(511, 1324);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(115, 25);
-            this.label39.TabIndex = 194;
-            this.label39.Text = "Nama Barang";
+            this.txtTitle3_4.AutoSize = true;
+            this.txtTitle3_4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle3_4.Location = new System.Drawing.Point(511, 1324);
+            this.txtTitle3_4.Name = "txtTitle3_4";
+            this.txtTitle3_4.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle3_4.TabIndex = 194;
+            this.txtTitle3_4.Text = "Nama Barang";
             // 
-            // label40
+            // txtPrice2_4
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(290, 1352);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(76, 19);
-            this.label40.TabIndex = 193;
-            this.label40.Text = "Rp5.000.000";
+            this.txtPrice2_4.AutoSize = true;
+            this.txtPrice2_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice2_4.Location = new System.Drawing.Point(290, 1352);
+            this.txtPrice2_4.Name = "txtPrice2_4";
+            this.txtPrice2_4.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice2_4.TabIndex = 193;
+            this.txtPrice2_4.Text = "Rp5.000.000";
             // 
-            // label41
+            // txtTitle2_4
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(290, 1324);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(115, 25);
-            this.label41.TabIndex = 192;
-            this.label41.Text = "Nama Barang";
+            this.txtTitle2_4.AutoSize = true;
+            this.txtTitle2_4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle2_4.Location = new System.Drawing.Point(290, 1324);
+            this.txtTitle2_4.Name = "txtTitle2_4";
+            this.txtTitle2_4.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle2_4.TabIndex = 192;
+            this.txtTitle2_4.Text = "Nama Barang";
             // 
-            // label42
+            // txtPrice1_4
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(71, 1352);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(76, 19);
-            this.label42.TabIndex = 191;
-            this.label42.Text = "Rp5.000.000";
+            this.txtPrice1_4.AutoSize = true;
+            this.txtPrice1_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice1_4.Location = new System.Drawing.Point(71, 1352);
+            this.txtPrice1_4.Name = "txtPrice1_4";
+            this.txtPrice1_4.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice1_4.TabIndex = 191;
+            this.txtPrice1_4.Text = "Rp5.000.000";
             // 
-            // label43
+            // txtTitle1_4
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(71, 1324);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(115, 25);
-            this.label43.TabIndex = 190;
-            this.label43.Text = "Nama Barang";
+            this.txtTitle1_4.AutoSize = true;
+            this.txtTitle1_4.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle1_4.Location = new System.Drawing.Point(71, 1324);
+            this.txtTitle1_4.Name = "txtTitle1_4";
+            this.txtTitle1_4.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle1_4.TabIndex = 190;
+            this.txtTitle1_4.Text = "Nama Barang";
             // 
-            // pictureBox16
+            // image5_4
             // 
-            this.pictureBox16.Location = new System.Drawing.Point(957, 1170);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox16.TabIndex = 189;
-            this.pictureBox16.TabStop = false;
+            this.image5_4.Location = new System.Drawing.Point(957, 1170);
+            this.image5_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image5_4.Name = "image5_4";
+            this.image5_4.Size = new System.Drawing.Size(150, 150);
+            this.image5_4.TabIndex = 189;
+            this.image5_4.TabStop = false;
             // 
-            // label44
+            // txtCategory4
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(48, 1115);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(140, 34);
-            this.label44.TabIndex = 188;
-            this.label44.Text = "• Powerbank";
+            this.txtCategory4.AutoSize = true;
+            this.txtCategory4.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategory4.Location = new System.Drawing.Point(48, 1115);
+            this.txtCategory4.Name = "txtCategory4";
+            this.txtCategory4.Size = new System.Drawing.Size(123, 34);
+            this.txtCategory4.TabIndex = 188;
+            this.txtCategory4.Text = "• Makanan";
             // 
-            // pictureBox17
+            // image3_4
             // 
-            this.pictureBox17.Location = new System.Drawing.Point(517, 1170);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox17.TabIndex = 187;
-            this.pictureBox17.TabStop = false;
+            this.image3_4.Location = new System.Drawing.Point(517, 1170);
+            this.image3_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image3_4.Name = "image3_4";
+            this.image3_4.Size = new System.Drawing.Size(150, 150);
+            this.image3_4.TabIndex = 187;
+            this.image3_4.TabStop = false;
             // 
-            // pictureBox18
+            // image2_4
             // 
-            this.pictureBox18.Location = new System.Drawing.Point(296, 1170);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox18.TabIndex = 186;
-            this.pictureBox18.TabStop = false;
+            this.image2_4.Location = new System.Drawing.Point(296, 1170);
+            this.image2_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image2_4.Name = "image2_4";
+            this.image2_4.Size = new System.Drawing.Size(150, 150);
+            this.image2_4.TabIndex = 186;
+            this.image2_4.TabStop = false;
             // 
-            // pictureBox19
+            // image1_4
             // 
-            this.pictureBox19.Location = new System.Drawing.Point(76, 1170);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox19.TabIndex = 185;
-            this.pictureBox19.TabStop = false;
+            this.image1_4.Location = new System.Drawing.Point(76, 1170);
+            this.image1_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image1_4.Name = "image1_4";
+            this.image1_4.Size = new System.Drawing.Size(150, 150);
+            this.image1_4.TabIndex = 185;
+            this.image1_4.TabStop = false;
             // 
-            // pictureBox20
+            // image4_4
             // 
-            this.pictureBox20.Location = new System.Drawing.Point(739, 1170);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox20.TabIndex = 184;
-            this.pictureBox20.TabStop = false;
+            this.image4_4.Location = new System.Drawing.Point(739, 1170);
+            this.image4_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image4_4.Name = "image4_4";
+            this.image4_4.Size = new System.Drawing.Size(150, 150);
+            this.image4_4.TabIndex = 184;
+            this.image4_4.TabStop = false;
             // 
             // btnAdminListCategory
             // 
-            this.btnAdminListCategory.Location = new System.Drawing.Point(54, 37);
+            this.btnAdminListCategory.BackColor = System.Drawing.Color.Azure;
+            this.btnAdminListCategory.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdminListCategory.Location = new System.Drawing.Point(54, 22);
             this.btnAdminListCategory.Name = "btnAdminListCategory";
-            this.btnAdminListCategory.Size = new System.Drawing.Size(112, 23);
+            this.btnAdminListCategory.Size = new System.Drawing.Size(145, 38);
             this.btnAdminListCategory.TabIndex = 210;
             this.btnAdminListCategory.Text = "Manage Categories";
-            this.btnAdminListCategory.UseVisualStyleBackColor = true;
+            this.btnAdminListCategory.UseVisualStyleBackColor = false;
             this.btnAdminListCategory.Click += new System.EventHandler(this.btnAdminListCategory_Click);
             // 
             // btnAdminListProducts
             // 
-            this.btnAdminListProducts.Location = new System.Drawing.Point(172, 37);
+            this.btnAdminListProducts.BackColor = System.Drawing.Color.Azure;
+            this.btnAdminListProducts.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdminListProducts.Location = new System.Drawing.Point(212, 22);
             this.btnAdminListProducts.Name = "btnAdminListProducts";
-            this.btnAdminListProducts.Size = new System.Drawing.Size(112, 23);
+            this.btnAdminListProducts.Size = new System.Drawing.Size(145, 38);
             this.btnAdminListProducts.TabIndex = 211;
             this.btnAdminListProducts.Text = "Manage Products";
-            this.btnAdminListProducts.UseVisualStyleBackColor = true;
+            this.btnAdminListProducts.UseVisualStyleBackColor = false;
             this.btnAdminListProducts.Click += new System.EventHandler(this.btnAdminListProducts_Click);
             // 
             // idProduct1_1
             // 
             this.idProduct1_1.AutoSize = true;
             this.idProduct1_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct1_1.Location = new System.Drawing.Point(156, 318);
+            this.idProduct1_1.Location = new System.Drawing.Point(207, 318);
             this.idProduct1_1.Name = "idProduct1_1";
             this.idProduct1_1.Size = new System.Drawing.Size(19, 19);
             this.idProduct1_1.TabIndex = 212;
@@ -1285,7 +1381,7 @@
             // 
             this.idProduct2_1.AutoSize = true;
             this.idProduct2_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct2_1.Location = new System.Drawing.Point(404, 318);
+            this.idProduct2_1.Location = new System.Drawing.Point(427, 318);
             this.idProduct2_1.Name = "idProduct2_1";
             this.idProduct2_1.Size = new System.Drawing.Size(19, 19);
             this.idProduct2_1.TabIndex = 213;
@@ -1296,7 +1392,7 @@
             // 
             this.idProduct3_1.AutoSize = true;
             this.idProduct3_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct3_1.Location = new System.Drawing.Point(621, 318);
+            this.idProduct3_1.Location = new System.Drawing.Point(648, 318);
             this.idProduct3_1.Name = "idProduct3_1";
             this.idProduct3_1.Size = new System.Drawing.Size(19, 19);
             this.idProduct3_1.TabIndex = 214;
@@ -1307,7 +1403,7 @@
             // 
             this.idProduct4_1.AutoSize = true;
             this.idProduct4_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct4_1.Location = new System.Drawing.Point(849, 308);
+            this.idProduct4_1.Location = new System.Drawing.Point(870, 318);
             this.idProduct4_1.Name = "idProduct4_1";
             this.idProduct4_1.Size = new System.Drawing.Size(19, 19);
             this.idProduct4_1.TabIndex = 215;
@@ -1318,7 +1414,7 @@
             // 
             this.idProduct5_1.AutoSize = true;
             this.idProduct5_1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct5_1.Location = new System.Drawing.Point(1077, 318);
+            this.idProduct5_1.Location = new System.Drawing.Point(1088, 318);
             this.idProduct5_1.Name = "idProduct5_1";
             this.idProduct5_1.Size = new System.Drawing.Size(19, 19);
             this.idProduct5_1.TabIndex = 216;
@@ -1380,13 +1476,495 @@
             this.idProduct5_2.Text = "id";
             this.idProduct5_2.Visible = false;
             // 
+            // idProduct1_3
+            // 
+            this.idProduct1_3.AutoSize = true;
+            this.idProduct1_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct1_3.Location = new System.Drawing.Point(207, 999);
+            this.idProduct1_3.Name = "idProduct1_3";
+            this.idProduct1_3.Size = new System.Drawing.Size(19, 19);
+            this.idProduct1_3.TabIndex = 222;
+            this.idProduct1_3.Text = "id";
+            this.idProduct1_3.Visible = false;
+            // 
+            // idProduct2_3
+            // 
+            this.idProduct2_3.AutoSize = true;
+            this.idProduct2_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct2_3.Location = new System.Drawing.Point(427, 999);
+            this.idProduct2_3.Name = "idProduct2_3";
+            this.idProduct2_3.Size = new System.Drawing.Size(19, 19);
+            this.idProduct2_3.TabIndex = 223;
+            this.idProduct2_3.Text = "id";
+            this.idProduct2_3.Visible = false;
+            // 
+            // idProduct4_3
+            // 
+            this.idProduct4_3.AutoSize = true;
+            this.idProduct4_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct4_3.Location = new System.Drawing.Point(870, 999);
+            this.idProduct4_3.Name = "idProduct4_3";
+            this.idProduct4_3.Size = new System.Drawing.Size(19, 19);
+            this.idProduct4_3.TabIndex = 224;
+            this.idProduct4_3.Text = "id";
+            this.idProduct4_3.Visible = false;
+            // 
+            // idProduct5_3
+            // 
+            this.idProduct5_3.AutoSize = true;
+            this.idProduct5_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct5_3.Location = new System.Drawing.Point(1088, 999);
+            this.idProduct5_3.Name = "idProduct5_3";
+            this.idProduct5_3.Size = new System.Drawing.Size(19, 19);
+            this.idProduct5_3.TabIndex = 225;
+            this.idProduct5_3.Text = "id";
+            this.idProduct5_3.Visible = false;
+            // 
+            // idProduct3_3
+            // 
+            this.idProduct3_3.AutoSize = true;
+            this.idProduct3_3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct3_3.Location = new System.Drawing.Point(648, 999);
+            this.idProduct3_3.Name = "idProduct3_3";
+            this.idProduct3_3.Size = new System.Drawing.Size(19, 19);
+            this.idProduct3_3.TabIndex = 226;
+            this.idProduct3_3.Text = "id";
+            this.idProduct3_3.Visible = false;
+            // 
+            // idProduct1_4
+            // 
+            this.idProduct1_4.AutoSize = true;
+            this.idProduct1_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct1_4.Location = new System.Drawing.Point(207, 1352);
+            this.idProduct1_4.Name = "idProduct1_4";
+            this.idProduct1_4.Size = new System.Drawing.Size(19, 19);
+            this.idProduct1_4.TabIndex = 227;
+            this.idProduct1_4.Text = "id";
+            this.idProduct1_4.Visible = false;
+            // 
+            // idProduct2_4
+            // 
+            this.idProduct2_4.AutoSize = true;
+            this.idProduct2_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct2_4.Location = new System.Drawing.Point(427, 1352);
+            this.idProduct2_4.Name = "idProduct2_4";
+            this.idProduct2_4.Size = new System.Drawing.Size(19, 19);
+            this.idProduct2_4.TabIndex = 228;
+            this.idProduct2_4.Text = "id";
+            this.idProduct2_4.Visible = false;
+            // 
+            // idProduct3_4
+            // 
+            this.idProduct3_4.AutoSize = true;
+            this.idProduct3_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct3_4.Location = new System.Drawing.Point(648, 1352);
+            this.idProduct3_4.Name = "idProduct3_4";
+            this.idProduct3_4.Size = new System.Drawing.Size(19, 19);
+            this.idProduct3_4.TabIndex = 229;
+            this.idProduct3_4.Text = "id";
+            this.idProduct3_4.Visible = false;
+            // 
+            // idProduct4_4
+            // 
+            this.idProduct4_4.AutoSize = true;
+            this.idProduct4_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct4_4.Location = new System.Drawing.Point(870, 1352);
+            this.idProduct4_4.Name = "idProduct4_4";
+            this.idProduct4_4.Size = new System.Drawing.Size(19, 19);
+            this.idProduct4_4.TabIndex = 230;
+            this.idProduct4_4.Text = "id";
+            this.idProduct4_4.Visible = false;
+            // 
+            // idProduct5_4
+            // 
+            this.idProduct5_4.AutoSize = true;
+            this.idProduct5_4.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct5_4.Location = new System.Drawing.Point(1088, 1352);
+            this.idProduct5_4.Name = "idProduct5_4";
+            this.idProduct5_4.Size = new System.Drawing.Size(19, 19);
+            this.idProduct5_4.TabIndex = 231;
+            this.idProduct5_4.Text = "id";
+            this.idProduct5_4.Visible = false;
+            // 
+            // idProduct5_5
+            // 
+            this.idProduct5_5.AutoSize = true;
+            this.idProduct5_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct5_5.Location = new System.Drawing.Point(1088, 1707);
+            this.idProduct5_5.Name = "idProduct5_5";
+            this.idProduct5_5.Size = new System.Drawing.Size(19, 19);
+            this.idProduct5_5.TabIndex = 262;
+            this.idProduct5_5.Text = "id";
+            this.idProduct5_5.Visible = false;
+            // 
+            // idProduct4_5
+            // 
+            this.idProduct4_5.AutoSize = true;
+            this.idProduct4_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct4_5.Location = new System.Drawing.Point(870, 1707);
+            this.idProduct4_5.Name = "idProduct4_5";
+            this.idProduct4_5.Size = new System.Drawing.Size(19, 19);
+            this.idProduct4_5.TabIndex = 261;
+            this.idProduct4_5.Text = "id";
+            this.idProduct4_5.Visible = false;
+            // 
+            // idProduct3_5
+            // 
+            this.idProduct3_5.AutoSize = true;
+            this.idProduct3_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct3_5.Location = new System.Drawing.Point(648, 1707);
+            this.idProduct3_5.Name = "idProduct3_5";
+            this.idProduct3_5.Size = new System.Drawing.Size(19, 19);
+            this.idProduct3_5.TabIndex = 260;
+            this.idProduct3_5.Text = "id";
+            this.idProduct3_5.Visible = false;
+            // 
+            // idProduct2_5
+            // 
+            this.idProduct2_5.AutoSize = true;
+            this.idProduct2_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct2_5.Location = new System.Drawing.Point(427, 1707);
+            this.idProduct2_5.Name = "idProduct2_5";
+            this.idProduct2_5.Size = new System.Drawing.Size(19, 19);
+            this.idProduct2_5.TabIndex = 259;
+            this.idProduct2_5.Text = "id";
+            this.idProduct2_5.Visible = false;
+            // 
+            // idProduct1_5
+            // 
+            this.idProduct1_5.AutoSize = true;
+            this.idProduct1_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct1_5.Location = new System.Drawing.Point(207, 1707);
+            this.idProduct1_5.Name = "idProduct1_5";
+            this.idProduct1_5.Size = new System.Drawing.Size(19, 19);
+            this.idProduct1_5.TabIndex = 258;
+            this.idProduct1_5.Text = "id";
+            this.idProduct1_5.Visible = false;
+            // 
+            // btnDetail5_5
+            // 
+            this.btnDetail5_5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail5_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail5_5.Location = new System.Drawing.Point(1037, 1738);
+            this.btnDetail5_5.Name = "btnDetail5_5";
+            this.btnDetail5_5.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail5_5.TabIndex = 257;
+            this.btnDetail5_5.Text = "Detail";
+            this.btnDetail5_5.UseVisualStyleBackColor = false;
+            // 
+            // btnBuy5_5
+            // 
+            this.btnBuy5_5.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy5_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy5_5.Location = new System.Drawing.Point(957, 1738);
+            this.btnBuy5_5.Name = "btnBuy5_5";
+            this.btnBuy5_5.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy5_5.TabIndex = 256;
+            this.btnBuy5_5.Text = "Buy";
+            this.btnBuy5_5.UseVisualStyleBackColor = false;
+            // 
+            // btnDetail4_5
+            // 
+            this.btnDetail4_5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail4_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail4_5.Location = new System.Drawing.Point(819, 1738);
+            this.btnDetail4_5.Name = "btnDetail4_5";
+            this.btnDetail4_5.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail4_5.TabIndex = 255;
+            this.btnDetail4_5.Text = "Detail";
+            this.btnDetail4_5.UseVisualStyleBackColor = false;
+            // 
+            // btnBuy4_5
+            // 
+            this.btnBuy4_5.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy4_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy4_5.Location = new System.Drawing.Point(739, 1738);
+            this.btnBuy4_5.Name = "btnBuy4_5";
+            this.btnBuy4_5.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy4_5.TabIndex = 254;
+            this.btnBuy4_5.Text = "Buy";
+            this.btnBuy4_5.UseVisualStyleBackColor = false;
+            // 
+            // btnDetail3_5
+            // 
+            this.btnDetail3_5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail3_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail3_5.Location = new System.Drawing.Point(597, 1738);
+            this.btnDetail3_5.Name = "btnDetail3_5";
+            this.btnDetail3_5.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail3_5.TabIndex = 253;
+            this.btnDetail3_5.Text = "Detail";
+            this.btnDetail3_5.UseVisualStyleBackColor = false;
+            // 
+            // btnBuy3_5
+            // 
+            this.btnBuy3_5.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy3_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy3_5.Location = new System.Drawing.Point(517, 1738);
+            this.btnBuy3_5.Name = "btnBuy3_5";
+            this.btnBuy3_5.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy3_5.TabIndex = 252;
+            this.btnBuy3_5.Text = "Buy";
+            this.btnBuy3_5.UseVisualStyleBackColor = false;
+            // 
+            // btnDetail2_5
+            // 
+            this.btnDetail2_5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail2_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail2_5.Location = new System.Drawing.Point(376, 1738);
+            this.btnDetail2_5.Name = "btnDetail2_5";
+            this.btnDetail2_5.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail2_5.TabIndex = 251;
+            this.btnDetail2_5.Text = "Detail";
+            this.btnDetail2_5.UseVisualStyleBackColor = false;
+            // 
+            // btnBuy2_5
+            // 
+            this.btnBuy2_5.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy2_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy2_5.Location = new System.Drawing.Point(296, 1738);
+            this.btnBuy2_5.Name = "btnBuy2_5";
+            this.btnBuy2_5.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy2_5.TabIndex = 250;
+            this.btnBuy2_5.Text = "Buy";
+            this.btnBuy2_5.UseVisualStyleBackColor = false;
+            // 
+            // btnDetail1_5
+            // 
+            this.btnDetail1_5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnDetail1_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail1_5.Location = new System.Drawing.Point(156, 1738);
+            this.btnDetail1_5.Name = "btnDetail1_5";
+            this.btnDetail1_5.Size = new System.Drawing.Size(70, 32);
+            this.btnDetail1_5.TabIndex = 249;
+            this.btnDetail1_5.Text = "Detail";
+            this.btnDetail1_5.UseVisualStyleBackColor = false;
+            // 
+            // btnBuy1_5
+            // 
+            this.btnBuy1_5.BackColor = System.Drawing.Color.Lavender;
+            this.btnBuy1_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy1_5.Location = new System.Drawing.Point(76, 1738);
+            this.btnBuy1_5.Name = "btnBuy1_5";
+            this.btnBuy1_5.Size = new System.Drawing.Size(70, 32);
+            this.btnBuy1_5.TabIndex = 248;
+            this.btnBuy1_5.Text = "Buy";
+            this.btnBuy1_5.UseVisualStyleBackColor = false;
+            // 
+            // txtPrice5_5
+            // 
+            this.txtPrice5_5.AutoSize = true;
+            this.txtPrice5_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice5_5.Location = new System.Drawing.Point(951, 1707);
+            this.txtPrice5_5.Name = "txtPrice5_5";
+            this.txtPrice5_5.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice5_5.TabIndex = 247;
+            this.txtPrice5_5.Text = "Rp5.000.000";
+            // 
+            // txtTitle5_5
+            // 
+            this.txtTitle5_5.AutoSize = true;
+            this.txtTitle5_5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle5_5.Location = new System.Drawing.Point(951, 1679);
+            this.txtTitle5_5.Name = "txtTitle5_5";
+            this.txtTitle5_5.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle5_5.TabIndex = 246;
+            this.txtTitle5_5.Text = "Nama Barang";
+            // 
+            // txtPrice4_5
+            // 
+            this.txtPrice4_5.AutoSize = true;
+            this.txtPrice4_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice4_5.Location = new System.Drawing.Point(734, 1707);
+            this.txtPrice4_5.Name = "txtPrice4_5";
+            this.txtPrice4_5.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice4_5.TabIndex = 245;
+            this.txtPrice4_5.Text = "Rp5.000.000";
+            // 
+            // txtTitle4_5
+            // 
+            this.txtTitle4_5.AutoSize = true;
+            this.txtTitle4_5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle4_5.Location = new System.Drawing.Point(734, 1679);
+            this.txtTitle4_5.Name = "txtTitle4_5";
+            this.txtTitle4_5.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle4_5.TabIndex = 244;
+            this.txtTitle4_5.Text = "Nama Barang";
+            // 
+            // txtPrice3_5
+            // 
+            this.txtPrice3_5.AutoSize = true;
+            this.txtPrice3_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice3_5.Location = new System.Drawing.Point(511, 1707);
+            this.txtPrice3_5.Name = "txtPrice3_5";
+            this.txtPrice3_5.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice3_5.TabIndex = 243;
+            this.txtPrice3_5.Text = "Rp5.000.000";
+            // 
+            // txtTitle3_5
+            // 
+            this.txtTitle3_5.AutoSize = true;
+            this.txtTitle3_5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle3_5.Location = new System.Drawing.Point(511, 1679);
+            this.txtTitle3_5.Name = "txtTitle3_5";
+            this.txtTitle3_5.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle3_5.TabIndex = 242;
+            this.txtTitle3_5.Text = "Nama Barang";
+            // 
+            // txtPrice2_5
+            // 
+            this.txtPrice2_5.AutoSize = true;
+            this.txtPrice2_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice2_5.Location = new System.Drawing.Point(290, 1707);
+            this.txtPrice2_5.Name = "txtPrice2_5";
+            this.txtPrice2_5.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice2_5.TabIndex = 241;
+            this.txtPrice2_5.Text = "Rp5.000.000";
+            // 
+            // txtTitle2_5
+            // 
+            this.txtTitle2_5.AutoSize = true;
+            this.txtTitle2_5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle2_5.Location = new System.Drawing.Point(290, 1679);
+            this.txtTitle2_5.Name = "txtTitle2_5";
+            this.txtTitle2_5.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle2_5.TabIndex = 240;
+            this.txtTitle2_5.Text = "Nama Barang";
+            // 
+            // txtPrice1_5
+            // 
+            this.txtPrice1_5.AutoSize = true;
+            this.txtPrice1_5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice1_5.Location = new System.Drawing.Point(71, 1707);
+            this.txtPrice1_5.Name = "txtPrice1_5";
+            this.txtPrice1_5.Size = new System.Drawing.Size(76, 19);
+            this.txtPrice1_5.TabIndex = 239;
+            this.txtPrice1_5.Text = "Rp5.000.000";
+            // 
+            // txtTitle1_5
+            // 
+            this.txtTitle1_5.AutoSize = true;
+            this.txtTitle1_5.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle1_5.Location = new System.Drawing.Point(71, 1679);
+            this.txtTitle1_5.Name = "txtTitle1_5";
+            this.txtTitle1_5.Size = new System.Drawing.Size(115, 25);
+            this.txtTitle1_5.TabIndex = 238;
+            this.txtTitle1_5.Text = "Nama Barang";
+            // 
+            // image5_5
+            // 
+            this.image5_5.Location = new System.Drawing.Point(957, 1525);
+            this.image5_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image5_5.Name = "image5_5";
+            this.image5_5.Size = new System.Drawing.Size(150, 150);
+            this.image5_5.TabIndex = 237;
+            this.image5_5.TabStop = false;
+            // 
+            // txtCategory5
+            // 
+            this.txtCategory5.AutoSize = true;
+            this.txtCategory5.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategory5.Location = new System.Drawing.Point(48, 1470);
+            this.txtCategory5.Name = "txtCategory5";
+            this.txtCategory5.Size = new System.Drawing.Size(124, 34);
+            this.txtCategory5.TabIndex = 236;
+            this.txtCategory5.Text = "• Minuman";
+            // 
+            // image3_5
+            // 
+            this.image3_5.Location = new System.Drawing.Point(517, 1525);
+            this.image3_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image3_5.Name = "image3_5";
+            this.image3_5.Size = new System.Drawing.Size(150, 150);
+            this.image3_5.TabIndex = 235;
+            this.image3_5.TabStop = false;
+            // 
+            // image2_5
+            // 
+            this.image2_5.Location = new System.Drawing.Point(296, 1525);
+            this.image2_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image2_5.Name = "image2_5";
+            this.image2_5.Size = new System.Drawing.Size(150, 150);
+            this.image2_5.TabIndex = 234;
+            this.image2_5.TabStop = false;
+            // 
+            // image1_5
+            // 
+            this.image1_5.Location = new System.Drawing.Point(76, 1525);
+            this.image1_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image1_5.Name = "image1_5";
+            this.image1_5.Size = new System.Drawing.Size(150, 150);
+            this.image1_5.TabIndex = 233;
+            this.image1_5.TabStop = false;
+            // 
+            // image4_5
+            // 
+            this.image4_5.Location = new System.Drawing.Point(739, 1525);
+            this.image4_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.image4_5.Name = "image4_5";
+            this.image4_5.Size = new System.Drawing.Size(150, 150);
+            this.image4_5.TabIndex = 232;
+            this.image4_5.TabStop = false;
+            // 
+            // pictureBoxProfile
+            // 
+            this.pictureBoxProfile.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProfile.Image")));
+            this.pictureBoxProfile.Location = new System.Drawing.Point(1044, 75);
+            this.pictureBoxProfile.Name = "pictureBoxProfile";
+            this.pictureBoxProfile.Size = new System.Drawing.Size(30, 30);
+            this.pictureBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProfile.TabIndex = 263;
+            this.pictureBoxProfile.TabStop = false;
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 150);
-            this.ClientSize = new System.Drawing.Size(1310, 886);
+            this.ClientSize = new System.Drawing.Size(1189, 791);
+            this.Controls.Add(this.pictureBoxProfile);
+            this.Controls.Add(this.idProduct5_5);
+            this.Controls.Add(this.idProduct4_5);
+            this.Controls.Add(this.idProduct3_5);
+            this.Controls.Add(this.idProduct2_5);
+            this.Controls.Add(this.idProduct1_5);
+            this.Controls.Add(this.btnDetail5_5);
+            this.Controls.Add(this.btnBuy5_5);
+            this.Controls.Add(this.btnDetail4_5);
+            this.Controls.Add(this.btnBuy4_5);
+            this.Controls.Add(this.btnDetail3_5);
+            this.Controls.Add(this.btnBuy3_5);
+            this.Controls.Add(this.btnDetail2_5);
+            this.Controls.Add(this.btnBuy2_5);
+            this.Controls.Add(this.btnDetail1_5);
+            this.Controls.Add(this.btnBuy1_5);
+            this.Controls.Add(this.txtPrice5_5);
+            this.Controls.Add(this.txtTitle5_5);
+            this.Controls.Add(this.txtPrice4_5);
+            this.Controls.Add(this.txtTitle4_5);
+            this.Controls.Add(this.txtPrice3_5);
+            this.Controls.Add(this.txtTitle3_5);
+            this.Controls.Add(this.txtPrice2_5);
+            this.Controls.Add(this.txtTitle2_5);
+            this.Controls.Add(this.txtPrice1_5);
+            this.Controls.Add(this.txtTitle1_5);
+            this.Controls.Add(this.image5_5);
+            this.Controls.Add(this.txtCategory5);
+            this.Controls.Add(this.image3_5);
+            this.Controls.Add(this.image2_5);
+            this.Controls.Add(this.image1_5);
+            this.Controls.Add(this.image4_5);
+            this.Controls.Add(this.idProduct5_4);
+            this.Controls.Add(this.idProduct4_4);
+            this.Controls.Add(this.idProduct3_4);
+            this.Controls.Add(this.idProduct2_4);
+            this.Controls.Add(this.idProduct1_4);
+            this.Controls.Add(this.idProduct3_3);
+            this.Controls.Add(this.idProduct5_3);
+            this.Controls.Add(this.idProduct4_3);
+            this.Controls.Add(this.idProduct2_3);
+            this.Controls.Add(this.idProduct1_3);
             this.Controls.Add(this.idProduct5_2);
             this.Controls.Add(this.idProduct4_2);
             this.Controls.Add(this.idProduct3_2);
@@ -1399,43 +1977,43 @@
             this.Controls.Add(this.idProduct1_1);
             this.Controls.Add(this.btnAdminListProducts);
             this.Controls.Add(this.btnAdminListCategory);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.btnDetail5_4);
+            this.Controls.Add(this.btnBuy5_4);
+            this.Controls.Add(this.btnDetail4_4);
+            this.Controls.Add(this.btnBuy4_4);
+            this.Controls.Add(this.btnDetail3_4);
+            this.Controls.Add(this.btnBuy3_4);
+            this.Controls.Add(this.btnDetail2_4);
+            this.Controls.Add(this.btnBuy2_4);
+            this.Controls.Add(this.btnDetail1_4);
+            this.Controls.Add(this.btnBuy1_4);
+            this.Controls.Add(this.txtPrice5_4);
+            this.Controls.Add(this.txtTitle5_4);
+            this.Controls.Add(this.txtPrice4_4);
+            this.Controls.Add(this.txtTitle4_4);
+            this.Controls.Add(this.txtPrice3_4);
+            this.Controls.Add(this.txtTitle3_4);
+            this.Controls.Add(this.txtPrice2_4);
+            this.Controls.Add(this.txtTitle2_4);
+            this.Controls.Add(this.txtPrice1_4);
+            this.Controls.Add(this.txtTitle1_4);
+            this.Controls.Add(this.image5_4);
+            this.Controls.Add(this.txtCategory4);
+            this.Controls.Add(this.image3_4);
+            this.Controls.Add(this.image2_4);
+            this.Controls.Add(this.image1_4);
+            this.Controls.Add(this.image4_4);
             this.Controls.Add(this.pictureBoxLogout);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
+            this.Controls.Add(this.btnDetail5_3);
+            this.Controls.Add(this.btnBuy5_3);
+            this.Controls.Add(this.btnDetail4_3);
+            this.Controls.Add(this.btnBuy4_3);
+            this.Controls.Add(this.btnDetail3_3);
+            this.Controls.Add(this.btnBuy3_3);
+            this.Controls.Add(this.btnDetail2_3);
+            this.Controls.Add(this.btnBuy2_3);
+            this.Controls.Add(this.btnDetail1_3);
+            this.Controls.Add(this.btnBuy1_3);
             this.Controls.Add(this.btnDetail5_2);
             this.Controls.Add(this.btnBuy5_2);
             this.Controls.Add(this.btnDetail4_2);
@@ -1456,16 +2034,16 @@
             this.Controls.Add(this.btnBuy2_1);
             this.Controls.Add(this.btnDetail1_1);
             this.Controls.Add(this.btnBuy1_1);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label25);
+            this.Controls.Add(this.txtPrice5_3);
+            this.Controls.Add(this.txtTitle5_3);
+            this.Controls.Add(this.txtPrice4_3);
+            this.Controls.Add(this.txtTitle4_3);
+            this.Controls.Add(this.txtPrice3_3);
+            this.Controls.Add(this.txtTitle3_3);
+            this.Controls.Add(this.txtPrice2_3);
+            this.Controls.Add(this.txtTitle2_3);
+            this.Controls.Add(this.txtPrice1_3);
+            this.Controls.Add(this.txtTitle1_3);
             this.Controls.Add(this.txtPrice5_2);
             this.Controls.Add(this.txtTitle5_2);
             this.Controls.Add(this.txtPrice4_2);
@@ -1476,7 +2054,7 @@
             this.Controls.Add(this.txtTitle2_2);
             this.Controls.Add(this.txtPrice1_2);
             this.Controls.Add(this.txtTitle1_2);
-            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.image5_3);
             this.Controls.Add(this.image5_2);
             this.Controls.Add(this.txtPrice5_1);
             this.Controls.Add(this.txtTitle5_1);
@@ -1492,10 +2070,10 @@
             this.Controls.Add(this.txtCategory3);
             this.Controls.Add(this.txtCategory2);
             this.Controls.Add(this.txtCategory1);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.image3_3);
+            this.Controls.Add(this.image2_3);
+            this.Controls.Add(this.image1_3);
+            this.Controls.Add(this.image4_3);
             this.Controls.Add(this.image3_2);
             this.Controls.Add(this.image2_2);
             this.Controls.Add(this.image1_2);
@@ -1511,13 +2089,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Landing Page";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LandingPage_FormClosed);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image5_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image5_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image3_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image2_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image1_2)).EndInit();
@@ -1527,11 +2105,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.image1_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.image4_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image5_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image3_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image2_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image1_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.image4_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfile)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1539,16 +2123,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button btnDetail5_3;
+        private System.Windows.Forms.Button btnBuy5_3;
+        private System.Windows.Forms.Button btnDetail4_3;
+        private System.Windows.Forms.Button btnBuy4_3;
+        private System.Windows.Forms.Button btnDetail3_3;
+        private System.Windows.Forms.Button btnBuy3_3;
+        private System.Windows.Forms.Button btnDetail2_3;
+        private System.Windows.Forms.Button btnBuy2_3;
+        private System.Windows.Forms.Button btnDetail1_3;
+        private System.Windows.Forms.Button btnBuy1_3;
         private System.Windows.Forms.Button btnDetail5_2;
         private System.Windows.Forms.Button btnBuy5_2;
         private System.Windows.Forms.Button btnDetail4_2;
@@ -1569,16 +2153,16 @@
         private System.Windows.Forms.Button btnBuy2_1;
         private System.Windows.Forms.Button btnDetail1_1;
         private System.Windows.Forms.Button btnBuy1_1;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label txtPrice5_3;
+        private System.Windows.Forms.Label txtTitle5_3;
+        private System.Windows.Forms.Label txtPrice4_3;
+        private System.Windows.Forms.Label txtTitle4_3;
+        private System.Windows.Forms.Label txtPrice3_3;
+        private System.Windows.Forms.Label txtTitle3_3;
+        private System.Windows.Forms.Label txtPrice2_3;
+        private System.Windows.Forms.Label txtTitle2_3;
+        private System.Windows.Forms.Label txtPrice1_3;
+        private System.Windows.Forms.Label txtTitle1_3;
         private System.Windows.Forms.Label txtPrice5_2;
         private System.Windows.Forms.Label txtTitle5_2;
         private System.Windows.Forms.Label txtPrice4_2;
@@ -1589,7 +2173,7 @@
         private System.Windows.Forms.Label txtTitle2_2;
         private System.Windows.Forms.Label txtPrice1_2;
         private System.Windows.Forms.Label txtTitle1_2;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox image5_3;
         private System.Windows.Forms.PictureBox image5_2;
         private System.Windows.Forms.Label txtPrice5_1;
         private System.Windows.Forms.Label txtTitle5_1;
@@ -1605,10 +2189,10 @@
         private System.Windows.Forms.Label txtCategory3;
         private System.Windows.Forms.Label txtCategory2;
         private System.Windows.Forms.Label txtCategory1;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox image3_3;
+        private System.Windows.Forms.PictureBox image2_3;
+        private System.Windows.Forms.PictureBox image1_3;
+        private System.Windows.Forms.PictureBox image4_3;
         private System.Windows.Forms.PictureBox image3_2;
         private System.Windows.Forms.PictureBox image2_2;
         private System.Windows.Forms.PictureBox image1_2;
@@ -1621,32 +2205,32 @@
         private System.Windows.Forms.Button btn_register;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.PictureBox pictureBoxLogout;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Button btnDetail5_4;
+        private System.Windows.Forms.Button btnBuy5_4;
+        private System.Windows.Forms.Button btnDetail4_4;
+        private System.Windows.Forms.Button btnBuy4_4;
+        private System.Windows.Forms.Button btnDetail3_4;
+        private System.Windows.Forms.Button btnBuy3_4;
+        private System.Windows.Forms.Button btnDetail2_4;
+        private System.Windows.Forms.Button btnBuy2_4;
+        private System.Windows.Forms.Button btnDetail1_4;
+        private System.Windows.Forms.Button btnBuy1_4;
+        private System.Windows.Forms.Label txtPrice5_4;
+        private System.Windows.Forms.Label txtTitle5_4;
+        private System.Windows.Forms.Label txtPrice4_4;
+        private System.Windows.Forms.Label txtTitle4_4;
+        private System.Windows.Forms.Label txtPrice3_4;
+        private System.Windows.Forms.Label txtTitle3_4;
+        private System.Windows.Forms.Label txtPrice2_4;
+        private System.Windows.Forms.Label txtTitle2_4;
+        private System.Windows.Forms.Label txtPrice1_4;
+        private System.Windows.Forms.Label txtTitle1_4;
+        private System.Windows.Forms.PictureBox image5_4;
+        private System.Windows.Forms.Label txtCategory4;
+        private System.Windows.Forms.PictureBox image3_4;
+        private System.Windows.Forms.PictureBox image2_4;
+        private System.Windows.Forms.PictureBox image1_4;
+        private System.Windows.Forms.PictureBox image4_4;
         private System.Windows.Forms.Button btnAdminListCategory;
         private System.Windows.Forms.Button btnAdminListProducts;
         private System.Windows.Forms.Label idProduct1_1;
@@ -1659,5 +2243,47 @@
         private System.Windows.Forms.Label idProduct3_2;
         private System.Windows.Forms.Label idProduct4_2;
         private System.Windows.Forms.Label idProduct5_2;
+        private System.Windows.Forms.Label idProduct1_3;
+        private System.Windows.Forms.Label idProduct2_3;
+        private System.Windows.Forms.Label idProduct4_3;
+        private System.Windows.Forms.Label idProduct5_3;
+        private System.Windows.Forms.Label idProduct3_3;
+        private System.Windows.Forms.Label idProduct1_4;
+        private System.Windows.Forms.Label idProduct2_4;
+        private System.Windows.Forms.Label idProduct3_4;
+        private System.Windows.Forms.Label idProduct4_4;
+        private System.Windows.Forms.Label idProduct5_4;
+        private System.Windows.Forms.Label idProduct5_5;
+        private System.Windows.Forms.Label idProduct4_5;
+        private System.Windows.Forms.Label idProduct3_5;
+        private System.Windows.Forms.Label idProduct2_5;
+        private System.Windows.Forms.Label idProduct1_5;
+        private System.Windows.Forms.Button btnDetail5_5;
+        private System.Windows.Forms.Button btnBuy5_5;
+        private System.Windows.Forms.Button btnDetail4_5;
+        private System.Windows.Forms.Button btnBuy4_5;
+        private System.Windows.Forms.Button btnDetail3_5;
+        private System.Windows.Forms.Button btnBuy3_5;
+        private System.Windows.Forms.Button btnDetail2_5;
+        private System.Windows.Forms.Button btnBuy2_5;
+        private System.Windows.Forms.Button btnDetail1_5;
+        private System.Windows.Forms.Button btnBuy1_5;
+        private System.Windows.Forms.Label txtPrice5_5;
+        private System.Windows.Forms.Label txtTitle5_5;
+        private System.Windows.Forms.Label txtPrice4_5;
+        private System.Windows.Forms.Label txtTitle4_5;
+        private System.Windows.Forms.Label txtPrice3_5;
+        private System.Windows.Forms.Label txtTitle3_5;
+        private System.Windows.Forms.Label txtPrice2_5;
+        private System.Windows.Forms.Label txtTitle2_5;
+        private System.Windows.Forms.Label txtPrice1_5;
+        private System.Windows.Forms.Label txtTitle1_5;
+        private System.Windows.Forms.PictureBox image5_5;
+        private System.Windows.Forms.Label txtCategory5;
+        private System.Windows.Forms.PictureBox image3_5;
+        private System.Windows.Forms.PictureBox image2_5;
+        private System.Windows.Forms.PictureBox image1_5;
+        private System.Windows.Forms.PictureBox image4_5;
+        private System.Windows.Forms.PictureBox pictureBoxProfile;
     }
 }

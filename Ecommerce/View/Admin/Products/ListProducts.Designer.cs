@@ -40,62 +40,67 @@
             // 
             // btnCancelProduct
             // 
+            this.btnCancelProduct.BackColor = System.Drawing.Color.Ivory;
             this.btnCancelProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelProduct.Location = new System.Drawing.Point(671, 514);
+            this.btnCancelProduct.Location = new System.Drawing.Point(1160, 497);
             this.btnCancelProduct.Name = "btnCancelProduct";
             this.btnCancelProduct.Size = new System.Drawing.Size(122, 35);
             this.btnCancelProduct.TabIndex = 15;
             this.btnCancelProduct.Text = "Cancel";
-            this.btnCancelProduct.UseVisualStyleBackColor = true;
+            this.btnCancelProduct.UseVisualStyleBackColor = false;
             this.btnCancelProduct.Click += new System.EventHandler(this.btnCancelProduct_Click);
             // 
             // btnDeleteProduct
             // 
+            this.btnDeleteProduct.BackColor = System.Drawing.Color.LightPink;
             this.btnDeleteProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteProduct.Location = new System.Drawing.Point(300, 497);
+            this.btnDeleteProduct.Location = new System.Drawing.Point(285, 497);
             this.btnDeleteProduct.Name = "btnDeleteProduct";
             this.btnDeleteProduct.Size = new System.Drawing.Size(122, 35);
             this.btnDeleteProduct.TabIndex = 14;
             this.btnDeleteProduct.Text = "Delete";
-            this.btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.UseVisualStyleBackColor = false;
             this.btnDeleteProduct.Click += new System.EventHandler(this.btnDeleteProduct_Click);
             // 
             // btnUpdateProduct
             // 
+            this.btnUpdateProduct.BackColor = System.Drawing.Color.Bisque;
             this.btnUpdateProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateProduct.Location = new System.Drawing.Point(172, 497);
+            this.btnUpdateProduct.Location = new System.Drawing.Point(157, 497);
             this.btnUpdateProduct.Name = "btnUpdateProduct";
             this.btnUpdateProduct.Size = new System.Drawing.Size(122, 35);
             this.btnUpdateProduct.TabIndex = 13;
             this.btnUpdateProduct.Text = "Update";
-            this.btnUpdateProduct.UseVisualStyleBackColor = true;
+            this.btnUpdateProduct.UseVisualStyleBackColor = false;
             this.btnUpdateProduct.Click += new System.EventHandler(this.btnUpdateProduct_Click);
             // 
             // btnAddProduct
             // 
+            this.btnAddProduct.BackColor = System.Drawing.Color.Beige;
             this.btnAddProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddProduct.Location = new System.Drawing.Point(44, 497);
+            this.btnAddProduct.Location = new System.Drawing.Point(29, 497);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.Size = new System.Drawing.Size(122, 35);
             this.btnAddProduct.TabIndex = 12;
             this.btnAddProduct.Text = "Add";
-            this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.UseVisualStyleBackColor = false;
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // btnSearchProduct
             // 
+            this.btnSearchProduct.BackColor = System.Drawing.Color.Ivory;
             this.btnSearchProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearchProduct.Location = new System.Drawing.Point(788, 28);
+            this.btnSearchProduct.Location = new System.Drawing.Point(773, 28);
             this.btnSearchProduct.Name = "btnSearchProduct";
             this.btnSearchProduct.Size = new System.Drawing.Size(122, 35);
             this.btnSearchProduct.TabIndex = 11;
             this.btnSearchProduct.Text = "Search";
-            this.btnSearchProduct.UseVisualStyleBackColor = true;
+            this.btnSearchProduct.UseVisualStyleBackColor = false;
             // 
             // txtSearchProduct
             // 
             this.txtSearchProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchProduct.Location = new System.Drawing.Point(156, 28);
+            this.txtSearchProduct.Location = new System.Drawing.Point(141, 28);
             this.txtSearchProduct.Multiline = true;
             this.txtSearchProduct.Name = "txtSearchProduct";
             this.txtSearchProduct.Size = new System.Drawing.Size(610, 35);
@@ -105,7 +110,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 34);
+            this.label1.Location = new System.Drawing.Point(25, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 23);
             this.label1.TabIndex = 9;
@@ -115,7 +120,7 @@
             // 
             this.lvwProduct.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwProduct.HideSelection = false;
-            this.lvwProduct.Location = new System.Drawing.Point(44, 79);
+            this.lvwProduct.Location = new System.Drawing.Point(29, 79);
             this.lvwProduct.Name = "lvwProduct";
             this.lvwProduct.Size = new System.Drawing.Size(1252, 412);
             this.lvwProduct.TabIndex = 8;
