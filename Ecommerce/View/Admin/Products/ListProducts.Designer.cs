@@ -58,6 +58,7 @@
             this.btnDeleteProduct.TabIndex = 14;
             this.btnDeleteProduct.Text = "Delete";
             this.btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.Click += new System.EventHandler(this.btnDeleteProduct_Click);
             // 
             // btnUpdateProduct
             // 
@@ -68,6 +69,7 @@
             this.btnUpdateProduct.TabIndex = 13;
             this.btnUpdateProduct.Text = "Update";
             this.btnUpdateProduct.UseVisualStyleBackColor = true;
+            this.btnUpdateProduct.Click += new System.EventHandler(this.btnUpdateProduct_Click);
             // 
             // btnAddProduct
             // 
