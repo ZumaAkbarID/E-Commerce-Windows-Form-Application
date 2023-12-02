@@ -1,5 +1,6 @@
 ﻿using Ecommerce.Controller;
 using Ecommerce.Helper;
+using Ecommerce.View.Admin.Categories;
 using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections.Generic;
@@ -120,14 +121,9 @@ namespace Ecommerce.View.Admin.Products
             AddListViewItemFromUrl(lvwProduct.Items.Count + 1, p);
         }
         // method event handler untuk merespon event OnUpdate,
-        private void OnUpdateEventHandler(Model.Entity.Categories cat)
+        private void OnUpdateEventHandler(Model.Entity.Products p)
         {
-            // ambil index data mhs yang edit
-            int index = lvwProduct.SelectedIndices[0];
-            // update informasi mhs di listview
-            ListViewItem itemRow = lvwProduct.Items[index];
-            itemRow.SubItems[1].Text = cat.CreatedByName;
-            itemRow.SubItems[2].Text = cat.Name;
+            LoadData();
         }
 
         private void ListProducts_FormClosed(object sender, FormClosedEventArgs e)
@@ -147,6 +143,43 @@ namespace Ecommerce.View.Admin.Products
             LandingPage landing = new LandingPage();
             landing.Show();
             Visible = false;
+        }
+
+        private void btnUpdateProduct_Click(object sender, EventArgs e)
+        {
+            if (lvwProduct.SelectedItems.Count > 0)
+            {
+                // ambil objek mhs yang mau diedit dari collection
+                Model.Entity.Products p = listOfProducts[lvwProduct.SelectedIndices[0]];
+                // buat objek form entry data mahasiswa
+                EntryProduct frmEntry = new EntryProduct("Edit Data " + p.Name, p, controller);
+                // mendaftarkan method event handler untuk merespon event OnUpdate
+                frmEntry.OnUpdate += OnUpdateEventHandler;
+                // tampilkan form entry mahasiswa
+                frmEntry.ShowDialog();
+            }
+            else // data belum dipilih
+            {
+                MessageBox.Show("No data selected", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void btnDeleteProduct_Click(object sender, EventArgs e)
+        {
+            if (lvwProduct.SelectedItems.Count > 0)
+            {
+                var confirm = MessageBox.Show("Are you sure?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (confirm == DialogResult.Yes)
+                {
+                    // panggil operasi CRUD
+                    var result = controller.Delete(listOfProducts[lvwProduct.SelectedIndices[0]].Id);
+                    if (result > 0) LoadData();
+                }
+            }
+            else // data belum dipilih
+            {
+                MessageBox.Show("No data selected", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 }

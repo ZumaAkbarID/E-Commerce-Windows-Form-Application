@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Documents;
+using System.Windows.Forms;
 
 namespace Ecommerce.Controller
 {
@@ -31,10 +33,16 @@ namespace Ecommerce.Controller
             return result;
         }
 
-        public int Update(Categories cat)
+        public int Update(Products p)
         {
             int result = 0;
 
+            // membuat objek context menggunakan blok using
+            using (DbContext context = new DbContext())
+            {
+                _productRepository = new ProductsRepository(context);
+                result = _productRepository.Update(p);
+            }
 
             return result;
         }
@@ -54,14 +62,20 @@ namespace Ecommerce.Controller
             return list;
         }
 
-        internal int Delete(int Id)
+        public int Delete(int Id)
         {
             int result = 0;
-
+            using (DbContext context = new DbContext())
+            {
+                // membuat objek dari class repository
+                _productRepository = new ProductsRepository(context);
+                // panggil method GetAll yang ada di dalam class repository
+                result = _productRepository.Delete(Id);
+            }
             return result;
         }
 
-        internal List<Products> ReadAll()
+        public List<Products> ReadAll()
         {
             // membuat objek collection
             List<Products> list = new List<Products>();
@@ -72,6 +86,21 @@ namespace Ecommerce.Controller
                 _productRepository = new ProductsRepository(context);
                 // panggil method GetAll yang ada di dalam class repository
                 list = _productRepository.ReadAll();
+            }
+            return list;
+        }
+
+        public Products ReadDetailProduct(int Id)
+        {
+            // membuat objek collection
+            Products list = new Products();
+            // membuat objek context menggunakan blok using
+            using (DbContext context = new DbContext())
+            {
+                // membuat objek dari class repository
+                _productRepository = new ProductsRepository(context);
+                // panggil method GetAll yang ada di dalam class repository
+                list = _productRepository.ReadDetailProduct(Id);
             }
             return list;
         }

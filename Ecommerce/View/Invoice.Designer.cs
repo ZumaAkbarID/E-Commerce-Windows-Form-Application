@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtDear = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDate = new System.Windows.Forms.TextBox();
+            this.txtInvoiceNumber = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnOkInvoice = new System.Windows.Forms.Button();
             this.btnCancelInvoice = new System.Windows.Forms.Button();
+            this.txtDuit = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -52,21 +54,21 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "INVOICE";
             // 
-            // label2
+            // txtDear
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Dear, ";
+            this.txtDear.AutoSize = true;
+            this.txtDear.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDear.Location = new System.Drawing.Point(25, 53);
+            this.txtDear.Name = "txtDear";
+            this.txtDear.Size = new System.Drawing.Size(47, 23);
+            this.txtDear.TabIndex = 1;
+            this.txtDear.Text = "Dear, ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 89);
+            this.label3.Location = new System.Drawing.Point(28, 85);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 23);
             this.label3.TabIndex = 2;
@@ -76,25 +78,27 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(33, 125);
+            this.label4.Location = new System.Drawing.Point(31, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "Invoice Number";
             // 
-            // textBox1
+            // txtDate
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 86);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtDate.Location = new System.Drawing.Point(160, 86);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.ReadOnly = true;
+            this.txtDate.Size = new System.Drawing.Size(237, 20);
+            this.txtDate.TabIndex = 4;
             // 
-            // textBox2
+            // txtInvoiceNumber
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 118);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(237, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtInvoiceNumber.Location = new System.Drawing.Point(160, 119);
+            this.txtInvoiceNumber.Name = "txtInvoiceNumber";
+            this.txtInvoiceNumber.ReadOnly = true;
+            this.txtInvoiceNumber.Size = new System.Drawing.Size(237, 20);
+            this.txtInvoiceNumber.TabIndex = 5;
             // 
             // listView1
             // 
@@ -121,9 +125,9 @@
             this.label6.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(32, 431);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(203, 23);
+            this.label6.Size = new System.Drawing.Size(260, 23);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Name                         : Electrocom";
+            this.label6.Text = "Name                         : Toko Zuma Ganteng";
             // 
             // label7
             // 
@@ -138,42 +142,64 @@
             // btnOkInvoice
             // 
             this.btnOkInvoice.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOkInvoice.Location = new System.Drawing.Point(399, 442);
+            this.btnOkInvoice.Location = new System.Drawing.Point(399, 481);
             this.btnOkInvoice.Name = "btnOkInvoice";
             this.btnOkInvoice.Size = new System.Drawing.Size(122, 35);
             this.btnOkInvoice.TabIndex = 10;
             this.btnOkInvoice.Text = "Ok";
             this.btnOkInvoice.UseVisualStyleBackColor = true;
+            this.btnOkInvoice.Click += new System.EventHandler(this.btnOkInvoice_Click);
             // 
             // btnCancelInvoice
             // 
             this.btnCancelInvoice.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelInvoice.Location = new System.Drawing.Point(527, 442);
+            this.btnCancelInvoice.Location = new System.Drawing.Point(527, 481);
             this.btnCancelInvoice.Name = "btnCancelInvoice";
             this.btnCancelInvoice.Size = new System.Drawing.Size(122, 35);
             this.btnCancelInvoice.TabIndex = 11;
             this.btnCancelInvoice.Text = "Cancel";
             this.btnCancelInvoice.UseVisualStyleBackColor = true;
+            this.btnCancelInvoice.Click += new System.EventHandler(this.btnCancelInvoice_Click);
+            // 
+            // txtDuit
+            // 
+            this.txtDuit.Location = new System.Drawing.Point(388, 444);
+            this.txtDuit.Name = "txtDuit";
+            this.txtDuit.Size = new System.Drawing.Size(261, 20);
+            this.txtDuit.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(361, 418);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(288, 23);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Masukin duit lu, ceritane payment gateway\r\n";
             // 
             // Invoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 511);
+            this.ClientSize = new System.Drawing.Size(684, 528);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtDuit);
             this.Controls.Add(this.btnCancelInvoice);
             this.Controls.Add(this.btnOkInvoice);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listView1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtInvoiceNumber);
+            this.Controls.Add(this.txtDate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtDear);
             this.Controls.Add(this.label1);
             this.Name = "Invoice";
             this.Text = "Invoice";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Invoice_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,16 +208,18 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label txtDear;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDate;
+        private System.Windows.Forms.TextBox txtInvoiceNumber;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnOkInvoice;
         private System.Windows.Forms.Button btnCancelInvoice;
+        private System.Windows.Forms.TextBox txtDuit;
+        private System.Windows.Forms.Label label2;
     }
 }

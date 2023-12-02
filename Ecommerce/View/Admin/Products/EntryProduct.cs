@@ -98,7 +98,7 @@ namespace Ecommerce.View.Admin.Products
             ResponseImageBB responseImgBB = await imgBB.UploadImageAsync(selectedPicturePath);
             MessageBox.Show(responseImgBB.data.url);*/
 
-            if (String.IsNullOrEmpty(cmbCategories.SelectedIndex.ToString()) || String.IsNullOrEmpty(txtProductName.Text) || String.IsNullOrEmpty(txtStock.Text) || String.IsNullOrEmpty(txtPrice.Text) || String.IsNullOrEmpty(txtDescProduct.Text) || !selectedPicture)
+            if (String.IsNullOrEmpty(cmbCategories.SelectedIndex.ToString()) || String.IsNullOrEmpty(txtProductName.Text) || String.IsNullOrEmpty(txtStock.Text) || String.IsNullOrEmpty(txtPrice.Text) || String.IsNullOrEmpty(txtDescProduct.Text))
             {
                 MessageBox.Show("Please fill all field.", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -106,6 +106,10 @@ namespace Ecommerce.View.Admin.Products
             else if (cmbCategories.SelectedIndex < 0)
             {
                 MessageBox.Show("Please select valid category.", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            } else if (isNewData && !selectedPicture)
+            {
+                MessageBox.Show("Please fill all field.", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -135,8 +139,9 @@ namespace Ecommerce.View.Admin.Products
                 }
             }
 
-            product.CategoryId = cmbCategories.SelectedIndex;
-            product.CategoryName = cmbCategories.SelectedText;
+            Model.Entity.Categories cat = listOfCategories[cmbCategories.SelectedIndex];
+            product.CategoryId = cat.Id;
+            product.CategoryName = cat.Name;
             product.CreatedBy = grabUser.Data().IdUser;
             product.CreatedByName = grabUser.Data().NameUser;
             product.Name = txtProductName.Text;
@@ -181,15 +186,15 @@ namespace Ecommerce.View.Admin.Products
             else // edit data, panggil method Update
             {
                 // panggil operasi CRUD
-                /*result = controller.Update(cat);
+                result = controller.Update(product);
                 if (result > 0)
                 {
-                    OnUpdate(cat);
+                    OnUpdate(product);
                 }
                 else
                 {
                     MessageBox.Show("Failed to update data", "Alert!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }*/
+                }
                 this.Hide();
             }
         }

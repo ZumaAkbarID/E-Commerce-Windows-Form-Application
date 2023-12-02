@@ -116,20 +116,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\CategoriesController.cs" />
+    <Compile Include="Controller\LandingPageController.cs" />
     <Compile Include="Controller\ProductsController.cs" />
+    <Compile Include="Controller\TransactionsController.cs" />
     <Compile Include="Controller\UsersController.cs" />
     <Compile Include="Helper\Currency.cs" />
     <Compile Include="Helper\GrabUser.cs" />
     <Compile Include="Helper\ImageBB.cs" />
+    <Compile Include="Helper\InvoiceGenerator.cs" />
     <Compile Include="Helper\Password.cs" />
     <Compile Include="Model\Context\DbContext.cs" />
     <Compile Include="Model\Entity\Categories.cs" />
     <Compile Include="Model\Entity\Products.cs" />
     <Compile Include="Model\Entity\ResponseImageBB.cs" />
+    <Compile Include="Model\Entity\Transactions.cs" />
     <Compile Include="Model\Entity\Users.cs" />
     <Compile Include="Model\Repository\CategoriesRepository.cs" />
     <Compile Include="Helper\Input.cs" />
     <Compile Include="Model\Repository\ProductsRepository.cs" />
+    <Compile Include="Model\Repository\TransactionsRepository.cs" />
     <Compile Include="Model\Repository\UsersRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -187,6 +192,12 @@
     <Compile Include="View\LandingPage.Designer.cs">
       <DependentUpon>LandingPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -223,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

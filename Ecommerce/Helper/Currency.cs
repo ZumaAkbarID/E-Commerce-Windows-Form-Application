@@ -11,7 +11,7 @@ namespace Ecommerce.Helper
     {
         public string ConvertToIdn(double amount)
         {
-            return "Rp." + Regex.Replace(amount.ToString("N2", new System.Globalization.CultureInfo("id-ID")), @"(?<=\d)(?=(\d{3})+(?!\d))", ".");
+            return "Rp. " + Regex.Replace(amount.ToString("N2", new System.Globalization.CultureInfo("id-ID")), @"(?<=\d)(?=(\d{3})+(?!\d))", ".");
         }
     }
 }
