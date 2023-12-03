@@ -42,6 +42,7 @@
             this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,31 +131,34 @@
             this.lvwProfile.HideSelection = false;
             this.lvwProfile.Location = new System.Drawing.Point(24, 205);
             this.lvwProfile.Name = "lvwProfile";
-            this.lvwProfile.Size = new System.Drawing.Size(754, 386);
+            this.lvwProfile.Size = new System.Drawing.Size(1034, 386);
             this.lvwProfile.TabIndex = 8;
             this.lvwProfile.UseCompatibleStateImageBehavior = false;
+            this.lvwProfile.SelectedIndexChanged += new System.EventHandler(this.lvwProfile_SelectedIndexChanged);
             // 
             // btnBack
             // 
             this.btnBack.AutoSize = true;
             this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBack.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(11, 9);
+            this.btnBack.Location = new System.Drawing.Point(20, 9);
             this.btnBack.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(51, 19);
             this.btnBack.TabIndex = 15;
             this.btnBack.Text = "<- Back";
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // pictureBoxLogout
             // 
             this.pictureBoxLogout.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogout.Image")));
-            this.pictureBoxLogout.Location = new System.Drawing.Point(758, 8);
+            this.pictureBoxLogout.Location = new System.Drawing.Point(1038, 9);
             this.pictureBoxLogout.Name = "pictureBoxLogout";
             this.pictureBoxLogout.Size = new System.Drawing.Size(20, 20);
             this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogout.TabIndex = 184;
             this.pictureBoxLogout.TabStop = false;
+            this.pictureBoxLogout.Click += new System.EventHandler(this.pictureBoxLogout_Click);
             // 
             // label5
             // 
@@ -175,13 +179,23 @@
             this.label6.Size = new System.Drawing.Size(94, 28);
             this.label6.TabIndex = 186;
             this.label6.Text = "All Orders";
-            
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(983, 611);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 187;
+            this.button1.Text = "Pay";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 674);
+            this.ClientSize = new System.Drawing.Size(1070, 646);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBoxLogout);
@@ -219,5 +233,6 @@
         private System.Windows.Forms.PictureBox pictureBoxLogout;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }

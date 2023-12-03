@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtCPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.lblRegister = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,7 +82,7 @@
             this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(237, 20);
-            this.txtName.TabIndex = 3;
+            this.txtName.TabIndex = 1;
             // 
             // txtPhone
             // 
@@ -89,7 +90,7 @@
             this.txtPhone.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(237, 20);
-            this.txtPhone.TabIndex = 5;
+            this.txtPhone.TabIndex = 2;
             this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
             // label3
@@ -122,7 +123,7 @@
             this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(237, 20);
-            this.txtAddress.TabIndex = 8;
+            this.txtAddress.TabIndex = 3;
             // 
             // label4
             // 
@@ -141,7 +142,7 @@
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(237, 20);
-            this.txtPassword.TabIndex = 10;
+            this.txtPassword.TabIndex = 4;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // label5
@@ -161,7 +162,7 @@
             this.txtCPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtCPassword.Name = "txtCPassword";
             this.txtCPassword.Size = new System.Drawing.Size(237, 20);
-            this.txtCPassword.TabIndex = 12;
+            this.txtCPassword.TabIndex = 5;
             this.txtCPassword.UseSystemPasswordChar = true;
             // 
             // label6
@@ -175,11 +176,25 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Confirm Password ";
             // 
+            // lblRegister
+            // 
+            this.lblRegister.AutoSize = true;
+            this.lblRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblRegister.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegister.Location = new System.Drawing.Point(228, 646);
+            this.lblRegister.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRegister.Name = "lblRegister";
+            this.lblRegister.Size = new System.Drawing.Size(164, 23);
+            this.lblRegister.TabIndex = 7;
+            this.lblRegister.Text = "Have an account? Login";
+            this.lblRegister.Click += new System.EventHandler(this.lblRegister_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 690);
+            this.ClientSize = new System.Drawing.Size(695, 697);
+            this.Controls.Add(this.lblRegister);
             this.Controls.Add(this.txtCPassword);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPassword);
@@ -218,5 +233,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtCPassword;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblRegister;
     }
 }

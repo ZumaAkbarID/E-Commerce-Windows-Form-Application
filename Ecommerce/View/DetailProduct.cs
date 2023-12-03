@@ -30,8 +30,12 @@ namespace Ecommerce.View
             this.CenterToScreen();
         }
 
-        public DetailProduct(int Id) : this()
+        public DetailProduct(int Id, bool directBuy = false) : this()
         {
+            if (directBuy)
+            {
+                BELI_OM();
+            }
             LoadData(Id);
         }
 
@@ -76,7 +80,24 @@ namespace Ecommerce.View
 
         private void btnBuy_Click(object sender, EventArgs e)
         {
+            BELI_OM();
+        }
+
+        private void BELI_OM()
+        {
             grabUser = new GrabUser();
+
+            if (grabUser.Data() == null)
+            {
+                MessageBox.Show("You need to login", "Information!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            else if (grabUser.Data().RoleUser == "Admin")
+            {
+                MessageBox.Show("LUWH ITU ADMIN CUY! SY SUDAH MLS NGERJAIN");
+                return;
+            }
+
             trxController = new TransactionsController();
             trx = new Transactions();
             trx.IdUser = grabUser.Data().IdUser;
@@ -89,7 +110,7 @@ namespace Ecommerce.View
             trx.InvoiceNumber = InvoiceGenerator.GenerateInvoiceNumber();
             trx.DateTime = DateTime.UtcNow;
 
-            if(trxController.Create(trx) > 0)
+            if (trxController.Create(trx) > 0)
             {
                 Invoice inv = new Invoice(trx);
                 inv.Show();

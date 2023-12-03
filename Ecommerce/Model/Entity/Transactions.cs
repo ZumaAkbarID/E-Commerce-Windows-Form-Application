@@ -12,6 +12,7 @@ namespace Ecommerce.Model.Entity
         public int IdUser { get; set; }
         public string UserName { get; set; }
         public int IdProduct { get; set; }
+        public string ImageProduct { get; set; }
         public string ProductName { get; set; }
         public string CategoryName { get; set; }
         public string Status { get; set; }

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Ecommerce.Controller;
 using Ecommerce.Helper;
 using Ecommerce.Model.Entity;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Ecommerce.View.Admin.Products
 {
@@ -79,7 +80,14 @@ namespace Ecommerce.View.Admin.Products
             isNewData = false; // set status edit data
             selectedPicture = false;
             product = prd;
-            cmbCategories.SelectedIndex = prd.CategoryId;
+            foreach (var item in cmbCategories.Items)
+            {
+                if (item.ToString() == prd.CategoryName)
+                {
+                    cmbCategories.SelectedItem = item;
+                    break; 
+                }
+            }
             txtProductName.Text = prd.Name;
             txtStock.Text = prd.Stock.ToString();
             txtPrice.Text = prd.Price.ToString();

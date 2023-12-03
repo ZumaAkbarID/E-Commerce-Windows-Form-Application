@@ -941,7 +941,6 @@
             // 
             // image5_1
             // 
-            this.image5_1.Image = ((System.Drawing.Image)(resources.GetObject("image5_1.Image")));
             this.image5_1.Location = new System.Drawing.Point(957, 136);
             this.image5_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.image5_1.Name = "image5_1";
@@ -1024,7 +1023,6 @@
             // 
             // image3_1
             // 
-            this.image3_1.Image = ((System.Drawing.Image)(resources.GetObject("image3_1.Image")));
             this.image3_1.Location = new System.Drawing.Point(517, 136);
             this.image3_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.image3_1.Name = "image3_1";
@@ -1035,7 +1033,6 @@
             // 
             // image2_1
             // 
-            this.image2_1.Image = ((System.Drawing.Image)(resources.GetObject("image2_1.Image")));
             this.image2_1.Location = new System.Drawing.Point(296, 136);
             this.image2_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.image2_1.Name = "image2_1";
@@ -1046,7 +1043,6 @@
             // 
             // image1_1
             // 
-            this.image1_1.Image = ((System.Drawing.Image)(resources.GetObject("image1_1.Image")));
             this.image1_1.Location = new System.Drawing.Point(76, 136);
             this.image1_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.image1_1.Name = "image1_1";
@@ -1057,7 +1053,6 @@
             // 
             // image4_1
             // 
-            this.image4_1.Image = ((System.Drawing.Image)(resources.GetObject("image4_1.Image")));
             this.image4_1.Location = new System.Drawing.Point(739, 136);
             this.image4_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.image4_1.Name = "image4_1";
@@ -1908,6 +1903,7 @@
             // 
             // pictureBoxProfile
             // 
+            this.pictureBoxProfile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxProfile.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProfile.Image")));
             this.pictureBoxProfile.Location = new System.Drawing.Point(1044, 75);
             this.pictureBoxProfile.Name = "pictureBoxProfile";
@@ -1915,6 +1911,7 @@
             this.pictureBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxProfile.TabIndex = 263;
             this.pictureBoxProfile.TabStop = false;
+            this.pictureBoxProfile.Click += new System.EventHandler(this.pictureBoxProfile_Click);
             // 
             // LandingPage
             // 
@@ -1922,7 +1919,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 150);
-            this.ClientSize = new System.Drawing.Size(1189, 791);
+            this.ClientSize = new System.Drawing.Size(1206, 791);
             this.Controls.Add(this.pictureBoxProfile);
             this.Controls.Add(this.idProduct5_5);
             this.Controls.Add(this.idProduct4_5);

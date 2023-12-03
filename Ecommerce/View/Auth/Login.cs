@@ -24,7 +24,8 @@ namespace Ecommerce.View.Auth
 
             handleInput = new Input();
 
-            pictureBox1.ImageLocation = "https://forumasisten.or.id/assets/img/asisten/22.11.4640.jpg";
+            //pictureBox1.ImageLocation = "https://forumasisten.or.id/assets/img/asisten/22.11.4640.jpg";
+            pictureBox1.ImageLocation = "https://media.discordapp.net/attachments/1129445903669940404/1180446645608009738/logo.png";
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             txtPhone.KeyPress += txtPhone_KeyPress;
