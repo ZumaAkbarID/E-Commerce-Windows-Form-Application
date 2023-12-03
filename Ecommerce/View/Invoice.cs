@@ -20,7 +20,12 @@ namespace Ecommerce.View
         private double price;
         private string InvoiceNumber;
         private int idProduct;
+        private string status;
+        private bool isDirect;
         private TransactionsController trxController;
+
+        public delegate void CreateUpdateEventHandler();
+        public event CreateUpdateEventHandler OnUpdate;
         public Invoice()
         {
             InitializeComponent();
@@ -32,14 +37,42 @@ namespace Ecommerce.View
             InisialisasiListView();
         }
 
-        public Invoice(Transactions trx) : this()
+        public Invoice(Transactions trx, bool direct = false, bool isAdmin = false) : this()
         {
             InvoiceNumber = trx.InvoiceNumber;
             idProduct = trx.IdProduct;
+            status = trx.Status;
+            isDirect = direct;
 
             txtDear.Text = "Dear, " + trx.UserName;
             txtDate.Text = trx.DateTime.ToString();
             txtInvoiceNumber.Text = trx.InvoiceNumber;
+
+            if (trx.Status == "unpaid")
+            {
+                btnUnpaid.Show();
+                btnPaid.Hide();
+            }
+            else
+            {
+                btnUnpaid.Hide();
+                btnPaid.Show();
+                label2.Text = "Payment Amount: ";
+                txtDuit.Text = currency.ConvertToIdn(trx.Payed);
+                txtDuit.ReadOnly = true;
+                btnOkInvoice.Hide();
+            }
+
+            if (isAdmin)
+            {
+                txtDuit.ReadOnly = true;
+                btnOkInvoice.Hide();
+                if (trx.Status == "unpaid")
+                {
+                    txtDuit.Hide();
+                    label2.Hide();
+                }
+            }
 
             var noUrut = listView1.Items.Count + 1;
             var item = new ListViewItem(noUrut.ToString());
@@ -92,6 +125,12 @@ namespace Ecommerce.View
 
             if (trxController.Pay(InvoiceNumber, duit) > 0)
             {
+                if (isDirect)
+                {
+                    OnUpdate();
+                    this.Visible = false;
+                    return;
+                }
                 Profile prf = new Profile();
                 prf.Show();
                 Visible = false;
@@ -105,17 +144,14 @@ namespace Ecommerce.View
 
         private void btnCancelInvoice_Click(object sender, EventArgs e)
         {
-            if(trxController.Delete(InvoiceNumber, idProduct) > 0)
+            if (isDirect)
             {
-                LandingPage landing = new LandingPage();
-                landing.Show();
-                Visible = false;
-                return;
-            } else
-            {
-                MessageBox.Show("Failed to cancel!", "Failed!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Visible = false;
                 return;
             }
+            Profile prf = new Profile();
+            prf.Show();
+            Visible = false;
         }
     }
 }

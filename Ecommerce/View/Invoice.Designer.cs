@@ -42,6 +42,8 @@
             this.btnCancelInvoice = new System.Windows.Forms.Button();
             this.txtDuit = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnPaid = new System.Windows.Forms.Button();
+            this.btnUnpaid = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -181,11 +183,45 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Masukin duit lu, ceritane payment gateway\r\n";
             // 
+            // btnPaid
+            // 
+            this.btnPaid.BackColor = System.Drawing.Color.LightGreen;
+            this.btnPaid.Enabled = false;
+            this.btnPaid.FlatAppearance.BorderSize = 0;
+            this.btnPaid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPaid.Font = new System.Drawing.Font("Poppins Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPaid.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnPaid.Location = new System.Drawing.Point(527, 53);
+            this.btnPaid.Name = "btnPaid";
+            this.btnPaid.Size = new System.Drawing.Size(122, 35);
+            this.btnPaid.TabIndex = 14;
+            this.btnPaid.Text = "PAID";
+            this.btnPaid.UseVisualStyleBackColor = false;
+            // 
+            // btnUnpaid
+            // 
+            this.btnUnpaid.BackColor = System.Drawing.Color.Yellow;
+            this.btnUnpaid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUnpaid.Enabled = false;
+            this.btnUnpaid.FlatAppearance.BorderSize = 0;
+            this.btnUnpaid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUnpaid.Font = new System.Drawing.Font("Poppins Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnpaid.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnUnpaid.Location = new System.Drawing.Point(527, 53);
+            this.btnUnpaid.Name = "btnUnpaid";
+            this.btnUnpaid.Size = new System.Drawing.Size(122, 35);
+            this.btnUnpaid.TabIndex = 15;
+            this.btnUnpaid.Text = "UNPAID";
+            this.btnUnpaid.UseVisualStyleBackColor = false;
+            // 
             // Invoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(684, 528);
+            this.Controls.Add(this.btnUnpaid);
+            this.Controls.Add(this.btnPaid);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtDuit);
             this.Controls.Add(this.btnCancelInvoice);
@@ -224,5 +260,7 @@
         private System.Windows.Forms.Button btnCancelInvoice;
         private System.Windows.Forms.TextBox txtDuit;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnPaid;
+        private System.Windows.Forms.Button btnUnpaid;
     }
 }

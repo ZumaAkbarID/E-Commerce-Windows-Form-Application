@@ -118,6 +118,7 @@
     <Compile Include="Controller\CategoriesController.cs" />
     <Compile Include="Controller\LandingPageController.cs" />
     <Compile Include="Controller\ProductsController.cs" />
+    <Compile Include="Controller\ProfileController.cs" />
     <Compile Include="Controller\TransactionsController.cs" />
     <Compile Include="Controller\UsersController.cs" />
     <Compile Include="Helper\Currency.cs" />

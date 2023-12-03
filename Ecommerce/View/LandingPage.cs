@@ -27,6 +27,7 @@ namespace Ecommerce.View
         private LandingPageController controller;
         private Currency currency;
         private List<Products> listOfProducts = new List<Products>();
+        private string role = "";
         public LandingPage()
         {
             InitializeComponent();
@@ -38,9 +39,11 @@ namespace Ecommerce.View
             if(grabUser.Data() != null)
             {
                 pictureBoxLogout.Show();
+                pictureBoxProfile.Show();
                 btn_login.Hide();
                 btn_register.Hide();
                 lbl_profil.Text = "Halo " + grabUser.Data().NameUser;
+                role = grabUser.Data().RoleUser;
                 if(grabUser.Data().RoleUser == "Admin")
                 {
                     btnAdminListCategory.Show();
@@ -53,6 +56,7 @@ namespace Ecommerce.View
             } else
             {
                 pictureBoxLogout.Hide();
+                pictureBoxProfile.Hide();
                 btn_login.Show();
                 btn_register.Show();
                 lbl_profil.Hide();
@@ -81,9 +85,7 @@ namespace Ecommerce.View
             Control buyButton = Controls.Find(buyButtonName, true).FirstOrDefault();
             Control detailButton = Controls.Find(detailButtonName, true).FirstOrDefault();
 
-            if (!visibility && x == 1) {
-                categoryControl.Hide();
-            } else if(visibility)
+            if(visibility)
             {
                 if(x == 1)
                 {
@@ -96,6 +98,10 @@ namespace Ecommerce.View
                 detailButton?.Show();
             } else
             {
+                if(x == 1)
+                {
+                    categoryControl.Hide();
+                }
                 imageControl?.Hide();
                 titleControl?.Hide();
                 priceControl?.Hide();
@@ -154,7 +160,7 @@ namespace Ecommerce.View
         private void LoadCatalog()
         {
             int totalX = 5;
-            int totalY = controller.CountCategoriesHasProduct();
+            int totalY = 5;
 
             int tempX = 1;
             int tempY = 1;
@@ -194,6 +200,16 @@ namespace Ecommerce.View
 
         private void BtnBuy_Click(object sender, EventArgs e)
         {
+            if(grabUser.Data() == null)
+            {
+                MessageBox.Show("You need to login", "Information!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            } else if (role == "Admin")
+            {
+                MessageBox.Show("LUWH ITU ADMIN CUY! SY SUDAH MLS NGERJAIN");
+                return;
+            }
+
             Button clickedButton = sender as Button;
             if (clickedButton != null)
             {
@@ -201,7 +217,7 @@ namespace Ecommerce.View
                 string x = buttonInfo.Groups[2].Value;
                 string y = buttonInfo.Groups[3].Value;
 
-                MessageBox.Show($"X : {x} Y : {y}");
+                MessageBox.Show($"Role: {role}");
             }
         }
 
@@ -295,5 +311,11 @@ namespace Ecommerce.View
             Visible = false;
         }
 
+        private void pictureBoxProfile_Click(object sender, EventArgs e)
+        {
+            Profile prf = new Profile();
+            prf.Show();
+            Visible = false;
+        }
     }
 }
