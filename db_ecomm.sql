@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 04, 2023 at 05:19 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Waktu pembuatan: 04 Des 2023 pada 19.01
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `categories`
+-- Struktur dari tabel `categories`
 --
 
 CREATE TABLE `categories` (
@@ -34,7 +34,7 @@ CREATE TABLE `categories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `categories`
+-- Dumping data untuk tabel `categories`
 --
 
 INSERT INTO `categories` (`id`, `created_by`, `category_name`) VALUES
@@ -47,7 +47,7 @@ INSERT INTO `categories` (`id`, `created_by`, `category_name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Struktur dari tabel `products`
 --
 
 CREATE TABLE `products` (
@@ -62,7 +62,7 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `products`
+-- Dumping data untuk tabel `products`
 --
 
 INSERT INTO `products` (`id`, `id_category`, `created_by`, `product_name`, `description`, `stock`, `price`, `image`) VALUES
@@ -75,12 +75,12 @@ INSERT INTO `products` (`id`, `id_category`, `created_by`, `product_name`, `desc
 (11, 3, 1, 'Samsung S22 Ultra', 'Samsung Galaxy S22 ultra 256GB Dynamic Amoled 2X with processor Qualcomm Snapdragon 8 Gen 1, 6.8 inch', 21, 14799000, 'https://i.ibb.co/Jq5kh7d/image.jpg'),
 (12, 3, 1, 'iPhone 13 Pro', 'iPhone 13 Pro with 256GB capacity, 6.1-inch Super Retina XDR display with ProMotion for faster, A15 Bionic chip', 5, 14999000, 'https://i.ibb.co/t4vZjQt/image.jpg'),
 (13, 13, 1, 'ASUS Vivobook', 'ASUS VivoBook 15X X1503ZA-L1236W 15_6_ OLED i5-12500H 16GB RAM 512GB SSD Windows 11 Home', 7, 9499000, 'https://i.ibb.co/vwJhKyV/image.jpg'),
-(14, 1, 1, 'Spaghetti', 'Pasta spaghetti with grilled shrimps bechamel sauce. Spaghetti with seafood rich cream. Cooking mediterranean food with savory prawns, macro top view, blue table, italian cuisine, vertical', 123, 39900, 'https://i.ibb.co/YXpM21p/image.jpg');
+(14, 2, 1, 'Spaghetti', 'Pasta spaghetti with grilled shrimps bechamel sauce. Spaghetti with seafood rich cream. Cooking mediterranean food with savory prawns, macro top view, blue table, italian cuisine, vertical', 123, 39900, 'https://i.ibb.co/YXpM21p/image.jpg');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `transactions`
+-- Struktur dari tabel `transactions`
 --
 
 CREATE TABLE `transactions` (
@@ -93,28 +93,10 @@ CREATE TABLE `transactions` (
   `payed` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `transactions`
---
-
-INSERT INTO `transactions` (`id`, `id_user`, `id_product`, `status`, `invoice_number`, `date`, `payed`) VALUES
-(1, 1, 7, 'unpaid', 'INV-1AKWH3', '2023-12-01 16:47:17', NULL),
-(2, 1, 7, 'unpaid', 'INV-JXQVMN', '2023-12-01 17:10:17', NULL),
-(3, 1, 7, 'unpaid', 'INV-QY5JPL', '2023-12-01 17:14:20', NULL),
-(4, 1, 7, 'unpaid', 'INV-DBYVR1', '2023-12-01 17:18:03', NULL),
-(5, 1, 7, 'paid', 'INV-ICINXH', '2023-12-01 17:20:39', 123233),
-(6, 1, 10, 'paid', 'INV-8HC1BZ', '2023-12-02 07:50:33', 1200000),
-(7, 3, 11, 'paid', 'INV-2G81SK', '2023-12-04 06:47:39', 15000000),
-(8, 3, 5, 'paid', 'INV-9XQNOC', '2023-12-04 07:14:10', 150000),
-(9, 3, 10, 'unpaid', 'INV-IMY9MZ', '2023-12-04 10:50:59', NULL),
-(10, 3, 10, 'unpaid', 'INV-ZA9KSW', '2023-12-04 10:51:00', NULL),
-(11, 3, 10, 'unpaid', 'INV-MSIJXR', '2023-12-04 10:52:26', NULL),
-(12, 3, 10, 'unpaid', 'INV-ZTVKZ6', '2023-12-04 10:52:27', NULL);
-
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -127,27 +109,26 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `phone`, `address`, `role`, `password`) VALUES
 (1, 'Zuma Ganteng', '1234', 'Jepara', 'Admin', 'E10ADC3949BA59ABBE56E057F20F883E'),
-(2, 'asdasd', '1221', 'asdasdasd', 'Buyer', 'E10ADC3949BA59ABBE56E057F20F883E'),
-(3, 'Nisa', '1212', 'Jogja', 'Buyer', '96E79218965EB72C92A549DD5A330112');
+(3, 'Nisa', '1212', 'Jogja', 'Admin', '96E79218965EB72C92A549DD5A330112');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `categories`
+-- Indeks untuk tabel `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`),
   ADD KEY `created_by` (`created_by`);
 
 --
--- Indexes for table `products`
+-- Indeks untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`),
@@ -155,7 +136,7 @@ ALTER TABLE `products`
   ADD KEY `created_by` (`created_by`);
 
 --
--- Indexes for table `transactions`
+-- Indeks untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   ADD PRIMARY KEY (`id`),
@@ -163,58 +144,58 @@ ALTER TABLE `transactions`
   ADD KEY `id_product` (`id_product`);
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `categories`
+-- AUTO_INCREMENT untuk tabel `categories`
 --
 ALTER TABLE `categories`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
--- AUTO_INCREMENT for table `transactions`
+-- AUTO_INCREMENT untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `categories`
+-- Ketidakleluasaan untuk tabel `categories`
 --
 ALTER TABLE `categories`
   ADD CONSTRAINT `categories_ibfk_1` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `products`
+-- Ketidakleluasaan untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD CONSTRAINT `products_ibfk_1` FOREIGN KEY (`id_category`) REFERENCES `categories` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `products_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `transactions`
+-- Ketidakleluasaan untuk tabel `transactions`
 --
 ALTER TABLE `transactions`
   ADD CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`) ON DELETE CASCADE,

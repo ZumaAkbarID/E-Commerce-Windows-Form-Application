@@ -117,8 +117,8 @@ namespace Ecommerce.View.Admin.Products
         {
             // tambahkan objek mhs yang baru ke dalam collection
             listOfProducts.Add(p);
-
-            AddListViewItemFromUrl(lvwProduct.Items.Count + 1, p);
+            LoadData();
+            //AddListViewItemFromUrl(lvwProduct.Items.Count + 1, p);
         }
         // method event handler untuk merespon event OnUpdate,
         private void OnUpdateEventHandler(Model.Entity.Products p)
@@ -173,6 +173,7 @@ namespace Ecommerce.View.Admin.Products
                 {
                     // panggil operasi CRUD
                     var result = controller.Delete(listOfProducts[lvwProduct.SelectedIndices[0]].Id);
+
                     if (result > 0) LoadData();
                 }
             }
