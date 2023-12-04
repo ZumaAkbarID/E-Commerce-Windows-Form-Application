@@ -886,7 +886,7 @@
             // 
             this.lbl_profil.AutoSize = true;
             this.lbl_profil.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_profil.Location = new System.Drawing.Point(837, 78);
+            this.lbl_profil.Location = new System.Drawing.Point(859, 77);
             this.lbl_profil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_profil.Name = "lbl_profil";
             this.lbl_profil.Size = new System.Drawing.Size(48, 28);
@@ -1343,7 +1343,7 @@
             this.btnAdminListCategory.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdminListCategory.Location = new System.Drawing.Point(54, 22);
             this.btnAdminListCategory.Name = "btnAdminListCategory";
-            this.btnAdminListCategory.Size = new System.Drawing.Size(145, 38);
+            this.btnAdminListCategory.Size = new System.Drawing.Size(145, 39);
             this.btnAdminListCategory.TabIndex = 210;
             this.btnAdminListCategory.Text = "Manage Categories";
             this.btnAdminListCategory.UseVisualStyleBackColor = false;
@@ -1355,7 +1355,7 @@
             this.btnAdminListProducts.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdminListProducts.Location = new System.Drawing.Point(212, 22);
             this.btnAdminListProducts.Name = "btnAdminListProducts";
-            this.btnAdminListProducts.Size = new System.Drawing.Size(145, 38);
+            this.btnAdminListProducts.Size = new System.Drawing.Size(145, 39);
             this.btnAdminListProducts.TabIndex = 211;
             this.btnAdminListProducts.Text = "Manage Products";
             this.btnAdminListProducts.UseVisualStyleBackColor = false;
@@ -2082,6 +2082,7 @@
             this.Controls.Add(this.lbl_profil);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.btn_login);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LandingPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Landing Page";

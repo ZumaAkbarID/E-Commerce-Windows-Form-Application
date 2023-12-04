@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListCategories));
             this.lvwCategory = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSearchCategory = new System.Windows.Forms.TextBox();
@@ -139,6 +140,7 @@
             this.Controls.Add(this.txtSearchCategory);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvwCategory);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ListCategories";
             this.Text = "List Categories";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ListCategories_FormClosed);

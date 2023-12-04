@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EntryCategory));
             this.label1 = new System.Windows.Forms.Label();
             this.txtCategoryName = new System.Windows.Forms.TextBox();
             this.btnCancelEC = new System.Windows.Forms.Button();
@@ -46,9 +47,10 @@
             // 
             // txtCategoryName
             // 
+            this.txtCategoryName.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCategoryName.Location = new System.Drawing.Point(171, 25);
             this.txtCategoryName.Name = "txtCategoryName";
-            this.txtCategoryName.Size = new System.Drawing.Size(319, 20);
+            this.txtCategoryName.Size = new System.Drawing.Size(319, 24);
             this.txtCategoryName.TabIndex = 1;
             // 
             // btnCancelEC
@@ -84,6 +86,7 @@
             this.Controls.Add(this.btnCancelEC);
             this.Controls.Add(this.txtCategoryName);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EntryCategory";
             this.Text = "EntryCategory";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EntryCategory_FormClosed);
