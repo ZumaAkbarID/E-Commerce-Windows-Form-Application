@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListProducts));
             this.btnCancelProduct = new System.Windows.Forms.Button();
             this.btnDeleteProduct = new System.Windows.Forms.Button();
             this.btnUpdateProduct = new System.Windows.Forms.Button();
@@ -139,6 +140,7 @@
             this.Controls.Add(this.txtSearchProduct);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvwProduct);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ListProducts";
             this.Text = "List Products";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ListProducts_FormClosed);

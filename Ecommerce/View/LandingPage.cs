@@ -27,7 +27,7 @@ namespace Ecommerce.View
         private LandingPageController controller;
         private Currency currency;
         private List<Products> listOfProducts = new List<Products>();
-        private string role = "";
+        private string role = ""; 
         public LandingPage()
         {
             InitializeComponent();
@@ -217,7 +217,18 @@ namespace Ecommerce.View
                 string x = buttonInfo.Groups[2].Value;
                 string y = buttonInfo.Groups[3].Value;
 
-                MessageBox.Show($"Role: {role}");
+                string idControlName = $"idProduct{x}_{y}";
+                Label idControl = Controls.Find(idControlName, true).FirstOrDefault() as Label;
+                if (idControl != null)
+                {
+                    var dtlPrd = new DetailProduct(Convert.ToInt32(idControl.Text), true);
+                    dtlPrd.BELI_OM();
+                }
+                else
+                {
+                    MessageBox.Show("ERROR", "ALERT!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                
             }
         }
 
