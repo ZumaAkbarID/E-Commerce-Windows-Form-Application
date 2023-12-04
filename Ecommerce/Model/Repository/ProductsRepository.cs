@@ -284,6 +284,7 @@ namespace Ecommerce.Model.Repository
         public int Update(Products p)
         {
             int result = 0;
+            if(CountAllProductsOnCategory(p.CategoryId) >= 5) { return 69; }
 
             string sql = @"update products set id_category = @id_category, created_by = @created_by, product_name = @product_name, description = @description, stock = @stock, price = @price, image = @image where id = @id";
             using (MySqlCommand cmd = new MySqlCommand(sql, _conn))

@@ -131,9 +131,9 @@
             this.label6.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(32, 431);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(260, 23);
+            this.label6.Size = new System.Drawing.Size(232, 23);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Name                         : Toko Zuma Ganteng";
+            this.label6.Text = "Name                         : Toko Serba Ada";
             // 
             // label7
             // 

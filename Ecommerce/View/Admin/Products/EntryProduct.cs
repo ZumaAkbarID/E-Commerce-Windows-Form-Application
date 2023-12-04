@@ -195,9 +195,12 @@ namespace Ecommerce.View.Admin.Products
             {
                 // panggil operasi CRUD
                 result = controller.Update(product);
-                if (result > 0)
+                if (result == 1)
                 {
                     OnUpdate(product);
+                } else if (result == 69)
+                {
+                    MessageBox.Show("Category has been reach the limit 5 product", "Failed!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {

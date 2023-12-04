@@ -126,6 +126,7 @@ namespace Ecommerce.View
             if(x == 1)
             {
                 string categoryControlName = $"txtCategory{y}";
+                //MessageBox.Show(categoryControlName + category_name + x.ToString() + y.ToString());
                 Label categoryControl = Controls.Find(categoryControlName, true).FirstOrDefault() as Label;
                 if(categoryControl != null)
                 {
@@ -175,26 +176,29 @@ namespace Ecommerce.View
             }
             // panggil method ReadAll dan tampung datanya ke dalam collection
             listOfProducts = controller.ReadAllCategoriesProducts();
+            //MessageBox.Show(listOfProducts.Count().ToString());
             // ekstrak objek dari collection
             foreach (var p in listOfProducts)
             {
-                if(tempX == 6) { 
+                if (tempX == 6)
+                {
                     tempX = 1;
-                } else if (tempX == 1)
+                    tempY++;
+                    tempCat = p.CategoryName;
+                }
+                else if (tempX == 1)
                 {
                     tempCat = p.CategoryName;
-                } else if(tempCat != p.CategoryName)
+                }
+                else if (tempCat != p.CategoryName)
                 {
                     tempX = 1;
                     tempY++;
                     tempCat = p.CategoryName;
                 }
 
-                if (p.CategoryName == tempCat)
-                {
-                    SetProductData(tempX, tempY, tempCat, p.Image, p.Name, p.Price, p.Id);
-                    tempX++;
-                }
+                SetProductData(tempX, tempY, tempCat, p.Image, p.Name, p.Price, p.Id);
+                tempX++;
             }
         }
 
