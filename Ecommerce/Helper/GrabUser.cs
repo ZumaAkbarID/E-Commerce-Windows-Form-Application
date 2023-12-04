@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Shell;
 
 namespace Ecommerce.Helper
 {
@@ -14,14 +15,21 @@ namespace Ecommerce.Helper
     {
         private Users user;
         private string SessionPath;
+        private string directoryPath;
 
         public GrabUser()
         {
-            SessionPath = Path.Combine(Application.StartupPath, "Session.json");
+            directoryPath = Path.Combine(Path.GetTempPath(), "22IF02-04");
+            SessionPath = Path.Combine(directoryPath, "Session.json");
         }
 
         public bool CheckSession()
         {
+            if (!Directory.Exists(directoryPath))
+            {
+                Directory.CreateDirectory(directoryPath);
+            }
+
             return (File.Exists(SessionPath)) ? true : false;
         }
 
@@ -52,7 +60,10 @@ namespace Ecommerce.Helper
             }
 
             string json = JsonConvert.SerializeObject(user);
-            File.WriteAllText(SessionPath, json);
+            using (StreamWriter sw = File.CreateText(SessionPath))
+            {
+                sw.WriteLine(json);
+            }
 
             return (CheckSession()) ? true : false;
         }

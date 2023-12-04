@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Invoice));
             this.label1 = new System.Windows.Forms.Label();
             this.txtDear = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -60,7 +61,7 @@
             // 
             this.txtDear.AutoSize = true;
             this.txtDear.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDear.Location = new System.Drawing.Point(25, 53);
+            this.txtDear.Location = new System.Drawing.Point(33, 53);
             this.txtDear.Name = "txtDear";
             this.txtDear.Size = new System.Drawing.Size(47, 23);
             this.txtDear.TabIndex = 1;
@@ -70,7 +71,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 85);
+            this.label3.Location = new System.Drawing.Point(33, 85);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 23);
             this.label3.TabIndex = 2;
@@ -80,7 +81,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(31, 118);
+            this.label4.Location = new System.Drawing.Point(33, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 23);
             this.label4.TabIndex = 3;
@@ -88,22 +89,25 @@
             // 
             // txtDate
             // 
+            this.txtDate.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDate.Location = new System.Drawing.Point(160, 86);
             this.txtDate.Name = "txtDate";
             this.txtDate.ReadOnly = true;
-            this.txtDate.Size = new System.Drawing.Size(237, 20);
+            this.txtDate.Size = new System.Drawing.Size(237, 24);
             this.txtDate.TabIndex = 4;
             // 
             // txtInvoiceNumber
             // 
+            this.txtInvoiceNumber.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInvoiceNumber.Location = new System.Drawing.Point(160, 119);
             this.txtInvoiceNumber.Name = "txtInvoiceNumber";
             this.txtInvoiceNumber.ReadOnly = true;
-            this.txtInvoiceNumber.Size = new System.Drawing.Size(237, 20);
+            this.txtInvoiceNumber.Size = new System.Drawing.Size(237, 24);
             this.txtInvoiceNumber.TabIndex = 5;
             // 
             // listView1
             // 
+            this.listView1.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(32, 166);
             this.listView1.Name = "listView1";
@@ -137,9 +141,9 @@
             this.label7.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(32, 454);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(202, 23);
+            this.label7.Size = new System.Drawing.Size(221, 23);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Account Number : 0987654321";
+            this.label7.Text = "Account Number  : 462431240654";
             // 
             // btnOkInvoice
             // 
@@ -168,9 +172,10 @@
             // txtDuit
             // 
             this.txtDuit.BackColor = System.Drawing.SystemColors.Control;
+            this.txtDuit.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDuit.Location = new System.Drawing.Point(365, 444);
             this.txtDuit.Name = "txtDuit";
-            this.txtDuit.Size = new System.Drawing.Size(284, 20);
+            this.txtDuit.Size = new System.Drawing.Size(284, 24);
             this.txtDuit.TabIndex = 12;
             // 
             // label2
@@ -236,6 +241,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDear);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Invoice";
             this.Text = "Invoice";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Invoice_FormClosed);

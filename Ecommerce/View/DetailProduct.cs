@@ -34,7 +34,15 @@ namespace Ecommerce.View
         {
             if (directBuy)
             {
+                productController = new ProductsController();
+                product = new Products();
+                currency = new Currency();
+                IdProduct = Id;
+
+                product = productController.ReadDetailProduct(Id);
+
                 BELI_OM();
+                return;
             }
             LoadData(Id);
         }
@@ -83,7 +91,7 @@ namespace Ecommerce.View
             BELI_OM();
         }
 
-        private void BELI_OM()
+        public void BELI_OM()
         {
             grabUser = new GrabUser();
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EntryProduct));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -98,6 +99,7 @@
             // 
             // txtProductName
             // 
+            this.txtProductName.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProductName.Location = new System.Drawing.Point(176, 82);
             this.txtProductName.Multiline = true;
             this.txtProductName.Name = "txtProductName";
@@ -106,6 +108,7 @@
             // 
             // txtStock
             // 
+            this.txtStock.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStock.Location = new System.Drawing.Point(176, 130);
             this.txtStock.Multiline = true;
             this.txtStock.Name = "txtStock";
@@ -115,6 +118,7 @@
             // 
             // txtPrice
             // 
+            this.txtPrice.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrice.Location = new System.Drawing.Point(176, 187);
             this.txtPrice.Multiline = true;
             this.txtPrice.Name = "txtPrice";
@@ -124,6 +128,7 @@
             // 
             // txtDescProduct
             // 
+            this.txtDescProduct.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescProduct.Location = new System.Drawing.Point(176, 243);
             this.txtDescProduct.Multiline = true;
             this.txtDescProduct.Name = "txtDescProduct";
@@ -185,10 +190,11 @@
             // 
             // cmbCategories
             // 
+            this.cmbCategories.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategories.FormattingEnabled = true;
             this.cmbCategories.Location = new System.Drawing.Point(176, 32);
             this.cmbCategories.Name = "cmbCategories";
-            this.cmbCategories.Size = new System.Drawing.Size(400, 21);
+            this.cmbCategories.Size = new System.Drawing.Size(400, 27);
             this.cmbCategories.TabIndex = 15;
             // 
             // EntryProduct
@@ -211,6 +217,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EntryProduct";
             this.Text = "EntryProduct";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EntryProduct_FormClosed);

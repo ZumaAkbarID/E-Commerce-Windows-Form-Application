@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailProduct));
             this.txtDescProduct = new System.Windows.Forms.TextBox();
             this.btnBuy = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,6 +44,7 @@
             // txtDescProduct
             // 
             this.txtDescProduct.BackColor = System.Drawing.SystemColors.Control;
+            this.txtDescProduct.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescProduct.Location = new System.Drawing.Point(365, 143);
             this.txtDescProduct.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescProduct.Multiline = true;
@@ -158,6 +160,7 @@
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblNameProduct);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DetailProduct";
             this.Text = "DetailProduct";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DetailProduct_FormClosed);

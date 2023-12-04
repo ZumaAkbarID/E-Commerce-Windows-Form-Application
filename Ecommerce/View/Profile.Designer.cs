@@ -128,10 +128,11 @@
             // 
             // lvwProfile
             // 
+            this.lvwProfile.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwProfile.HideSelection = false;
             this.lvwProfile.Location = new System.Drawing.Point(24, 205);
             this.lvwProfile.Name = "lvwProfile";
-            this.lvwProfile.Size = new System.Drawing.Size(1034, 386);
+            this.lvwProfile.Size = new System.Drawing.Size(1048, 386);
             this.lvwProfile.TabIndex = 8;
             this.lvwProfile.UseCompatibleStateImageBehavior = false;
             this.lvwProfile.SelectedIndexChanged += new System.EventHandler(this.lvwProfile_SelectedIndexChanged);
@@ -182,19 +183,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(983, 611);
+            this.button1.BackColor = System.Drawing.Color.Cornsilk;
+            this.button1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(950, 599);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(122, 35);
             this.button1.TabIndex = 187;
             this.button1.Text = "Pay";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1070, 646);
+            this.ClientSize = new System.Drawing.Size(1097, 646);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -209,6 +212,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Profile";
             this.Text = "Profile";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Profile_FormClosed);
